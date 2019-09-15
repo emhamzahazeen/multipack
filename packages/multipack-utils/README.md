@@ -1,6 +1,6 @@
-# multipack-utils
+# multipack
 
-Simple monorepo template repository.
+A monorepo template repository.Preconfigured to work well with `Typescript`, `Jest`, `Webpack`, `Eslint`
 
 ## Getting started.
 
@@ -14,6 +14,17 @@ Running `npm run link:packages` will installing all packages dependencies and li
 To build and publish your packages you just need to run: `npm run publish:packages`
 
 This will run the build script and then publish your packages. It is currently set to publish each package individually so that their versions are independent.
+
+## Comands
+
+`npm run build:packages` - build all packages with `webpack` in `production` mode
+`npm run watch:packages` - start `webpack` in watch mode to rebuild packages in each change
+`npm run publish:packages` - publish all packages in package registry (npm, yarn ...)
+`npm run link:packages` - will installing all packages dependencies and linking any cross-dependencies in each package
+`npm run test:packages` - run `jest` tests in each package and colect coverage from all packages
+`npm run lint:packages` - lint all packages
+`npm run fix:packages` - lint and fix all packages
+`npm run clean:install:packages` - remove all `node_modules` directories from packages and reinstall dependecies in each package
 
 ## Contributing
 
