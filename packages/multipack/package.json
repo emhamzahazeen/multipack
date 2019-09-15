@@ -24,7 +24,7 @@
   "types": "./@types",
   "scripts": {
     "build": "rimraf build && cross-env NODE_ENV=production webpack",
-    "watch": "rimraf build && cross-env NODE_ENV=development webpack -w",
+    "watch": "cross-env NODE_ENV=development webpack -w",
     "clean:install": "rimraf node_modules && rimraf package-lock.json && npm i"
   },
   "devDependencies": {
