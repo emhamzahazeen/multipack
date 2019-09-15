@@ -1,0 +1,27 @@
+/* eslint-disable */
+const path = require('path')
+
+module.exports = {
+  mode:process.env.NODE_ENV,
+  entry: path.resolve(__dirname, 'src/index.ts'),
+  output: {
+    filename: 'index.js',
+    path: path.resolve(__dirname, 'build'),
+    library: 'multipackUtils',
+    libraryTarget: 'umd',
+    libraryExport: 'default',
+    umdNamedDefine: true
+  },
+  module: {
+    rules: [
+      {
+        test: /\.ts?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/,
+      },
+    ],
+  },
+  resolve: {
+    extensions: ['.ts'],
+  },
+}

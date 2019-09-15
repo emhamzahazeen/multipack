@@ -1,0 +1,41 @@
+{
+  "name": "multipack",
+  "description": "Simple monorepo template repository.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Gherciu Gheorghe",
+    "email": "gherciu553@gmail.com",
+    "url": "https://gherciu.github.io/portfolio/"
+  },
+  "keywords": [
+    "lerna",
+    "monorepo",
+    "multipack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/multipack"
+  },
+  "bugs": {
+    "url": "https://github.com/multipack/issues"
+  },
+  "main": "./build/index.js",
+  "types": "./@types",
+  "scripts": {
+    "build": "rimraf build && cross-env NODE_ENV=production webpack",
+    "watch": "rimraf build && cross-env NODE_ENV=development webpack -w",
+    "clean:install": "rimraf node_modules && rimraf package-lock.json && npm i"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.1",
+    "rimraf": "^2.6.3",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  },
+  "dependencies": {
+    "multipack-utils": "^1.0.0"
+  }
+}
