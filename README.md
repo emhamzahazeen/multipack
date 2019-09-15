@@ -15,7 +15,7 @@ To build and publish your packages you just need to run: `npm run publish:packag
 
 This will run the build script and then publish your packages. It is currently set to publish each package individually so that their versions are independent.
 
-## Comands
+## CLI Commands
 
 `npm run build:packages` - build all packages with `webpack` in `production` mode
 
