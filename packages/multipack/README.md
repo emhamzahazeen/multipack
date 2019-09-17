@@ -31,8 +31,6 @@ This will run the build script and then publish your packages. It is currently s
 
 `npm run fix:packages` - lint and fix all packages
 
-`npm run clean:install:packages` - remove all `node_modules` directories from packages and reinstall dependecies in each package
-
 ## Contributing
 
 1. Fork it!
