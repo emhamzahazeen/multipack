@@ -24,7 +24,7 @@
     "build:packages": "lerna run build",
     "watch:packages": "lerna run watch",
     "link:packages": "lerna bootstrap",
-    "publish:packages": "npm run build:packages && lerna publish",
+    "publish:packages": "npm run build:packages && lerna publish --message=\"chore: Publish\"",
     "test:packages": "jest --coverage",
     "watch:test:packages": "jest --watch",
     "clean:install:packages": "lerna run clean:install",
