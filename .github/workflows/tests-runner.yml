@@ -19,7 +19,8 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
-          npm run link:packages
+          npm run clean:install:packages
+          npm run build:packages
           npm run test:packages
         env:
           CI: true
