@@ -23,9 +23,9 @@
   "main": "./build/index.js",
   "types": "./@types",
   "scripts": {
-    "build": "rimraf ./build && cross-env NODE_ENV=production webpack",
+    "build": "cross-env NODE_ENV=production webpack",
     "watch": "cross-env NODE_ENV=development webpack -w",
-    "clean:install": "rimraf ./node_modules && npm install"
+    "clean:install": "npm install"
   },
   "devDependencies": {
     "cross-env": "^5.2.1",

@@ -30,7 +30,7 @@
     "clean:install:packages": "lerna run clean:install",
     "lint:packages": "eslint ./packages --ext .ts --max-warnings=0",
     "fix:packages": "eslint ./packages --ext .ts --fix --max-warnings=0",
-    "clean:install": "rimraf ./node_modules && npm iinstall"
+    "clean:install": "npm iinstall"
   },
   "lint-staged": {
     "*.{ts}": [
