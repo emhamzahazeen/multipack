@@ -27,7 +27,7 @@ This will run the build script and then publish your packages. It is currently s
 
 `npm run test:packages` - run `jest` tests in each package and colect coverage from all packages
 
-`watch:test:packages` - run and watch all tests for changes
+`npm run watch:test:packages` - run and watch all tests for changes
 
 `npm run lint:packages` - lint all packages
 
