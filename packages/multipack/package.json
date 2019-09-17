@@ -1,7 +1,7 @@
 {
   "name": "multipack-core",
   "description": "Simple monorepo template repository.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "author": {
     "name": "Gherciu Gheorghe",
@@ -36,7 +36,7 @@
     "webpack-cli": "^3.3.8"
   },
   "dependencies": {
-    "multipack-utils": "^1.0.3"
+    "multipack-utils": "^1.0.4"
   },
   "gitHead": "e5f694604ed9977f614ecdb25eea64de748a7705"
 }
