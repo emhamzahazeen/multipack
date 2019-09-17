@@ -20,7 +20,9 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install
+        npm run link:packages
         npm run build:packages
+        npm run link:packages
         npm test:packages
       env:
         CI: true
