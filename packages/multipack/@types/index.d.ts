@@ -4,5 +4,7 @@ export interface Multipack {
   sum: TSum
 }
 
-export * from '../src'
-export { default as multipack } from '../src'
+export const sum: TSum
+declare const multipack: Multipack
+
+export default multipack

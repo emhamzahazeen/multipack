@@ -4,5 +4,7 @@ export interface MultipackUtils {
   toNumber: TToNumber
 }
 
-export * from '../src'
-export { default as multipackUtils } from '../src'
+export const toNumber: TToNumber
+declare const multipackUtils: MultipackUtils
+
+export default multipackUtils
