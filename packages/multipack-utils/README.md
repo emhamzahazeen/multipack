@@ -19,7 +19,7 @@ This will run the build script and then publish your packages. It is currently s
 
 `npm run build:packages` - build all packages with `webpack` in `production` mode
 
-`npm run watch:packages` - start `webpack` in watch mode to rebuild packages in each change
+`npm run watch:packages` - start `webpack` in watch mode to rebuild packages on each change
 
 `npm run publish:packages` - publish all packages in package registry (npm, yarn ...)
 
