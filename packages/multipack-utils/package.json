@@ -1,7 +1,7 @@
 {
   "name": "multipack-utils",
   "description": "Simple monorepo template repository.",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "license": "MIT",
   "author": {
     "name": "Gherciu Gheorghe",
