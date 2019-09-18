@@ -27,7 +27,6 @@
     "publish:packages": "npm run link:packages && npm run build:packages && lerna publish --message=\"chore: publish changed packages\"",
     "test:packages": "jest --coverage",
     "watch:test:packages": "jest --watch",
-    "clean:install:packages": "lerna run clean:install",
     "lint:packages": "eslint ./packages --ext .ts --max-warnings=0",
     "fix:packages": "eslint ./packages --ext .ts --fix --max-warnings=0"
   },
@@ -63,7 +62,6 @@
     "lerna": "^3.16.4",
     "lint-staged": "^9.2.0",
     "prettier": "^1.18.2",
-    "rimraf": "^2.6.3",
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.3"
   }
