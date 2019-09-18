@@ -2,7 +2,7 @@
   <img width="200" height="200"
     src="https://raw.githubusercontent.com/Gherciu/multipack/master/logo.png">
   <h1>multipack</h1>
-  <p>A monorepo template repository. Preconfigured to work well with `Typescript`, `Jest`, `Webpack`, `Eslint`</p>
+  <p>A monorepo template repository. Preconfigured to work well with Typescript, Jest, Webpack, Eslint</p>
 </div>
 
 ## Getting started.
