@@ -1,6 +1,6 @@
 <div align="center">
   <img width="200" height="200"
-    src="./auto.gif">
+    src="./logo.png">
   <h1>multipack</h1>
   <p>A monorepo template repository.Preconfigured to work well with `Typescript`, `Jest`, `Webpack`, `Eslint`</p>
 </div>
