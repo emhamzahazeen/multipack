@@ -5,6 +5,8 @@
   <p>A monorepo template repository. Preconfigured to work well with Typescript, Jest, Webpack, Eslint</p>
 </div>
 
+![GitHub](https://img.shields.io/github/license/Gherciu/multipack)
+
 ## Getting started.
 
 - Clone the project: `git clone --depth=1 https://github.com/Gherciu/multipack.git <YOUR_PROJECT_NAME>`
