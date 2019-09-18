@@ -1,6 +1,9 @@
-# multipack
-
-A monorepo template repository.Preconfigured to work well with `Typescript`, `Jest`, `Webpack`, `Eslint`
+<div align="center">
+  <img width="200" height="200"
+    src="https://raw.githubusercontent.com/Gherciu/multipack/master/logo.png">
+  <h1>multipack</h1>
+  <p>A monorepo template repository.Preconfigured to work well with `Typescript`, `Jest`, `Webpack`, `Eslint`</p>
+</div>
 
 ## Getting started.
 
@@ -43,7 +46,7 @@ This will run the build script and then publish your packages. It is currently s
 
 ## Author
 
-**[@Gherciu/multipack](https://github.com/Gherciu/multipack)** © [GHERCIU](https://github.com/Gherciu), Released under the [MIT](https://github.com/Gherciu/multipack/blob/master/LICENSE) License.<br>
+**[@Gherciu/multipack](https://github.com/Gherciu/multipack)** © [GHERCIU](https://github.com/Gherciu), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by GHERCIU with help from contributors ([list](https://github.com/Gherciu/multipack/contributors)).
 
 #### If you like this repository star⭐ and watch👀 on [GitHub](https://github.com/Gherciu/multipack)
