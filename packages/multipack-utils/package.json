@@ -1,6 +1,6 @@
 {
   "name": "multipack-utils",
-  "description": "Simple monorepo template repository.",
+  "description": "A set of utils for multipack monorepo repository.",
   "version": "1.0.11",
   "license": "MIT",
   "author": {
