@@ -2,7 +2,7 @@
   <img width="200" height="200"
     src="https://raw.githubusercontent.com/Gherciu/multipack/master/logo.png">
   <h1>multipack-utils</h1>
-  <p>A monorepo template repository. Preconfigured to work well with Typescript, Jest, Webpack, Eslint</p>
+  <p>A set of utils for multipack monorepo repository. Part of <a href="https://github.com/Gherciu/multipack">multipack</a>monorepo</p>
 </div>
 
 ![GitHub](https://img.shields.io/github/license/Gherciu/multipack)
