@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/multipack"
+    "url": "https://github.com/Gherciu/multipack"
   },
   "bugs": {
-    "url": "https://github.com/multipack/issues"
+    "url": "https://github.com/Gherciu/multipack/issues"
   },
   "main": "./build/index.js",
   "types": "./@types",
