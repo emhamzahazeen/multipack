@@ -6,7 +6,7 @@
 </div>
 
 ![GitHub](https://img.shields.io/github/license/Gherciu/multipack)
-![Multipack](https://img.shields.io/badge/Generated%20from-Gherciu%2Fmultipack-green)
+[![Multipack](https://img.shields.io/badge/Generated%20from-Gherciu%2Fmultipack-green)](https://github.com/Gherciu/multipack)
 
 ## Getting started.
 
