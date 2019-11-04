@@ -5,8 +5,8 @@
   <p>A monorepo template repository. Preconfigured to work well with Typescript, Jest, Webpack, Eslint</p>
 </div>
 
-![GitHub](https://img.shields.io/github/license/Gherciu/multipack)
-![Multipack](https://img.shields.io/badge/Generated%20from-Gherciu%2Fmultipack-green)
+[![GitHub](https://img.shields.io/github/license/Gherciu/multipack)](https://github.com/Gherciu/multipack/blob/master/LICENSE)
+[![Multipack](https://img.shields.io/badge/Generated%20from-Gherciu%2Fmultipack-green)](https://github.com/Gherciu/multipack)
 
 ## Getting started.
 

@@ -5,8 +5,8 @@
   <p>A set of utils for multipack monorepo repository. Part of <a href="https://github.com/Gherciu/multipack">multipack</a> monorepo</p>
 </div>
 
-![GitHub](https://img.shields.io/github/license/Gherciu/multipack)
-![Multipack](https://img.shields.io/badge/Generated%20from-Gherciu%2Fmultipack-green)
+[![GitHub](https://img.shields.io/github/license/Gherciu/multipack)](https://github.com/Gherciu/multipack/blob/master/LICENSE)
+[![Multipack](https://img.shields.io/badge/Generated%20from-Gherciu%2Fmultipack-green)](https://github.com/Gherciu/multipack)
 
 ## Getting started.
 
