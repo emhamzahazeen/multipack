@@ -1,7 +1,6 @@
 module.exports = {
   collectCoverageFrom: [
     'packages/**/*.(ts)',
-    '!packages/**/src/index.(ts)',
     '!packages/multipack-e2e-tests/**',
   ],
   coverageThreshold: {
