@@ -2,7 +2,7 @@
   <img width="200" height="200"
     src="https://raw.githubusercontent.com/Gherciu/multipack/master/logo.png">
   <h1>multipack</h1>
-  <p>A monorepo template repository. Preconfigured to work well with Typescript, React, Jest, Webpack, Eslint</p>
+  <p> 🔱 A monorepo template repository. Ideal for building maintenable NPM packages. Preconfigured to work well with Lerna, Typescript, React, Jest, Webpack, Eslint</p>
 </div>
 
 [![GitHub](https://img.shields.io/github/license/Gherciu/multipack)](https://github.com/Gherciu/multipack/blob/master/LICENSE)
@@ -38,6 +38,9 @@ This will run the build script and then publish your packages. It is currently s
 `npm run lint:packages` - lint all packages
 
 `npm run fix:packages` - lint and fix all packages
+
+To run e2e tests just change directory to `packages/multipack/multipack-e2e-tests` and run `npm run test`
+To run integration example if you build an react library just change directory to `packages/multipack/multipack-e2e-tests` and run `npm run start` this command will start a ready to use server preconfigured to work well with React. It use under hood `create-react-app`
 
 ## Contributing
 
