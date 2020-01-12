@@ -30,6 +30,7 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': ['error', prettierOptions],
+    'react/jsx-filename-extension': ['error', { 'extensions': ['.tsx'] }],
   },
   settings: {
     'import/resolver': {
