@@ -39,6 +39,9 @@ This will run the build script and then publish your packages. It is currently s
 
 `npm run fix:packages` - lint and fix all packages
 
+To run e2e tests just change directory to `packages/multipack/multipack-e2e-tests` and run `npm run test`
+To run integration example if you build an react library just change directory to `packages/multipack/multipack-e2e-tests` and run `npm run start` this command will start a ready to use server preconfigured to work well with React. It use under hood `create-react-app`
+
 ## Contributing
 
 1. Fork it!
