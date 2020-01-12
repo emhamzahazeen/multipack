@@ -26,12 +26,9 @@
     "link:packages": "lerna bootstrap",
     "publish:packages": "npm run link:packages && npm run build:packages && lerna publish --message=\"chore: publish changed packages\"",
     "test:packages": "jest --coverage",
-    "test:e2e:packages": "cd packages/multipack-e2e-tests && npm run test",
     "watch:test:packages": "jest --watch",
-    "watch:e2e:test:packages": "cd packages/multipack-e2e-tests && npm run watch:test",
     "lint:packages": "eslint ./packages --ext .ts --max-warnings=0",
-    "fix:packages": "eslint ./packages --ext .ts --fix --max-warnings=0",
-    "start:e2e": "cd packages/multipack-e2e-tests && npm run start"
+    "fix:packages": "eslint ./packages --ext .ts --fix --max-warnings=0"
   },
   "lint-staged": {
     "*.{ts}": [
