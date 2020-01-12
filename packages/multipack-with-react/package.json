@@ -1,7 +1,7 @@
 {
-  "name": "multipack-core",
-  "description": "🔱 Simple monorepo template repository.",
-  "version": "1.0.15",
+  "name": "multipack-with-react",
+  "description": "An example of react multipack package",
+  "version": "1.0.0",
   "license": "MIT",
   "author": {
     "name": "Gherciu Gheorghe",
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gherciu/multipack"
+    "url": "https://github.com/Gherciu/react-grapnel"
   },
   "bugs": {
-    "url": "https://github.com/Gherciu/multipack/issues"
+    "url": "https://github.com/Gherciu/react-grapnel/issues"
   },
   "main": "./build/index.js",
   "types": "./@types",
@@ -27,16 +27,23 @@
     "watch": "cross-env NODE_ENV=development webpack -w"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/react-hooks": "^3.2.1",
+    "@types/react": "^16.9.17",
     "cross-env": "^5.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-test-renderer": "^16.12.0",
     "rimraf": "^2.6.3",
     "ts-loader": "^6.1.0",
     "typescript": "^3.6.3",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.8"
   },
-  "dependencies": {
-    "multipack-utils": "^1.0.14",
-    "multipack-with-react": "^1.0.0"
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "gitHead": "e5f694604ed9977f614ecdb25eea64de748a7705"
 }

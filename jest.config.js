@@ -1,8 +1,5 @@
 module.exports = {
-  collectCoverageFrom: [
-    'packages/**/*.(ts|tsx)',
-    '!packages/multipack-e2e-tests/**',
-  ],
+  collectCoverageFrom: ['packages/**/*.(ts|tsx)'],
   coverageThreshold: {
     global: {
       statements: 100,
@@ -12,6 +9,5 @@ module.exports = {
     },
   },
   testRegex: 'tests/.*\\.test\\.(ts|tsx)$',
-  testPathIgnorePatterns: ['/packages/multipack-e2e-tests/'],
   preset: 'ts-jest',
 }

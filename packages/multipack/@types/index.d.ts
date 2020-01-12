@@ -1,10 +1,13 @@
-export type TSum = (a: number | string, b: number | string) => number
+import { TUseCounter } from 'multipack-with-react'
+import { TToNumber } from '../../multipack-utils/@types'
 
 export interface Multipack {
-  sum: TSum
+  toNumber: TToNumber
+  useCounter: TUseCounter
 }
 
-export const sum: TSum
+export const useCounter: TUseCounter
+export const toNumber: TToNumber
 declare const multipack: Multipack
 
 export default multipack

@@ -1,11 +1,11 @@
 import { toNumber } from 'multipack-utils'
-import { Multipack, TSum } from '../@types'
-
-const sum: TSum = (a, b) => toNumber(a) + toNumber(b)
+import useCounter from 'multipack-with-react'
+import { Multipack } from '../@types'
 
 const multipack: Multipack = {
-  sum,
+  toNumber,
+  useCounter,
 }
 
-export { sum }
+export { toNumber, useCounter }
 export default multipack

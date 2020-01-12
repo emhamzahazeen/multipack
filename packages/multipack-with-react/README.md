@@ -1,14 +1,51 @@
 <div align="center">
   <img width="200" height="200"
     src="https://raw.githubusercontent.com/Gherciu/multipack/master/logo.png">
-  <h1>multipack-e2e-tests</h1>
-  <p>This package is predestinated for e2e tests and integrations tests for multipack package. Part of <a href="https://github.com/Gherciu/multipack">multipack</a> monorepo</p>
+  <h1>multipack-with-react</h1>
+  <p>An example of react multipack package. Part of <a href="https://github.com/Gherciu/multipack">multipack</a> monorepo</p>
 </div>
 
 [![GitHub](https://img.shields.io/github/license/Gherciu/multipack)](https://github.com/Gherciu/multipack/blob/master/LICENSE)
 [![Multipack](https://img.shields.io/badge/Generated%20from-Gherciu%2Fmultipack-green)](https://github.com/Gherciu/multipack)
 
-# This package is predestinated for e2e tests and integrations tests for multipack package.
+## Getting started
+
+- Install: `npm i multipack-with-react`
+
+```js
+import React from 'react'
+import useCounter from 'multipack-with-react'
+
+const App = () => {
+  const { count, increment, decrement } = useCounter(0)
+  return (
+    <div>
+      <button onClick={decrement}>-</button>
+      <span>{count}</span>
+      <button onClick={increment}>+</button>
+    </div>
+  )
+}
+```
+
+Or use via cdn:
+
+```html
+<!--index.html-->
+<script src="https://cdn.jsdelivr.net/npm/multipack-with-react@latest/build/index.js"></script>
+<script>
+  const App = () => {
+    const { count, increment, decrement } = multipackWithReact(0)
+    return (
+      <div>
+        <button onClick={decrement}>-</button>
+        <span>{count}</span>
+        <button onClick={increment}>+</button>
+      </div>
+    )
+  }
+</script>
+```
 
 ## Contributing
 
