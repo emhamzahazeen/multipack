@@ -15,6 +15,7 @@
 - Pre-commit hooks with `husky` and `lint-staged`
 - `Docusaurus` docs generator preconfigured to work well with `Github Pages`
 - Preconfigured `Jest` and `react-testing-library` to test `(ts|tsx)` files and colect coverage from all packages
+- Preconfigured `Github workflow actions` to run tests after each pushed commit
 
 ## Getting started.
 
