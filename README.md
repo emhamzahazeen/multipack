@@ -8,9 +8,9 @@
   </h1>
   <p> 🔱 A monorepo template repository. Ideal for building maintenable NPM packages. Preconfigured to work well with Lerna, Typescript, React, Jest, Webpack, Eslint.</p>
   <p>
-    <a href="https://gherciu.github.io/multipack/">Getting Started</a>
-    | <a href="https://gherciu.github.io/multipack/">API</a>
-    | <a href="https://gherciu.github.io/multipack/">Blog</a>
+    <a href="https://gherciu.github.io/multipack/docs/getting-started">Getting Started</a>
+    | <a href="https://gherciu.github.io/multipack/docs/api">API</a>
+    | <a href="https://gherciu.github.io/multipack/blog/">Blog</a>
   </p>
 </div>
 
