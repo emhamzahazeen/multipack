@@ -7,7 +7,7 @@ const users = [
     caption: 'commitlint-jira',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/multipack/img/undraw_open_source.svg',
+    image: '/multipack/img/undraw_operating_system.svg',
     infoLink: 'https://github.com/Gherciu/commitlint-jira',
     pinned: true,
   },
@@ -15,7 +15,7 @@ const users = [
     caption: 'sagittarius',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/multipack/img/undraw_open_source.svg',
+    image: '/multipack/img/undraw_operating_system.svg',
     infoLink: 'https://github.com/Gherciu/sagittarius',
     pinned: true,
   },
@@ -23,7 +23,7 @@ const users = [
     caption: 'redux-soldier',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/multipack/img/undraw_open_source.svg',
+    image: '/multipack/img/undraw_operating_system.svg',
     infoLink: 'https://github.com/Gherciu/redux-soldier',
     pinned: true,
   },
@@ -47,24 +47,46 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
+    {doc: 'doc4', label: 'Getting Started'},
+    {doc: 'doc1', label: 'API'},
     {blog: true, label: 'Blog'},
+    {href: 'https://github.com/Gherciu/multipack', label: 'GitHub'},
+  ],
+
+  // package features
+  features: [
+    {
+      content: 'This is the content of my feature',
+      image: `/multipack/img/undraw_react.svg`,
+      imageAlign: 'top',
+      title: 'Feature One',
+    },
+    {
+      content: 'The content of my second feature',
+      image: `/multipack/img/undraw_operating_system.svg`,
+      imageAlign: 'top',
+      title: 'Feature Two',
+    },
+    {
+      content: 'The content of my second feature',
+      image: `/multipack/img/undraw_operating_system.svg`,
+      imageAlign: 'top',
+      title: 'Feature Two',
+    },
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/logo.png',
+  footerIcon: 'img/logo.png',
+  favicon: 'img/logo.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#0052CC',
-    secondaryColor: '#172B4D',
+    primaryColor: '#20232A',
+    secondaryColor: '#282C34',
   },
 
   /* Custom fonts for website */
@@ -82,7 +104,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Gherciu Gheorghe`,
+  copyright: `Copyright © ${new Date().getFullYear()} `,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -114,6 +136,12 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
     repoUrl: 'https://github.com/Gherciu/multipack',
+
+  // repo author info
+  author: {
+    name: 'Gherciu Gheorghe',
+    url: 'https://gherciu.github.io'
+  }
 };
 
 module.exports = siteConfig;
