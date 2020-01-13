@@ -8,6 +8,14 @@
 [![GitHub](https://img.shields.io/github/license/Gherciu/multipack)](https://github.com/Gherciu/multipack/blob/master/LICENSE)
 [![Multipack](https://img.shields.io/badge/Generated%20from-Gherciu%2Fmultipack-green)](https://github.com/Gherciu/multipack)
 
+## Features
+
+- `Lerna` structure to build monorepo packages
+- `ESLint` and `Prettier` to enforce code style.
+- Pre-commit hooks with `husky` and `lint-staged`
+- `Docusaurus` docs generator preconfigured to work well with `Github Pages`
+- Preconfigured `Jest` and `react-testing-library` to test `(ts|tsx)` files and colect coverage from all packages
+
 ## Getting started.
 
 - Clone the project: `git clone --depth=1 https://github.com/Gherciu/multipack.git <YOUR_PROJECT_NAME>`
@@ -38,6 +46,10 @@ This will run the build script and then publish your packages. It is currently s
 `npm run lint:packages` - lint all packages
 
 `npm run fix:packages` - lint and fix all packages
+
+`npm run start:docs` - start a [Docusaurus](https://docusaurus.io/) server that serve files from `/www` folder predestinated for docs.
+
+`npm run publish:docs` - publish generated docs with [Docusaurus](https://docusaurus.io/) to `Github Pages`
 
 ## Contributing
 
