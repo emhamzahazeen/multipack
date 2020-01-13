@@ -3,9 +3,11 @@
   <img width="200" height="200"
     src="https://raw.githubusercontent.com/Gherciu/multipack/master/logo.png">
   </a>
-  <a href="https://gherciu.github.io/multipack/">
-    <h1>multipack</h1>
-  </a>
+  <h1>
+    <a href="https://gherciu.github.io/multipack/">
+      multipack
+    </a>
+  </h1>
   <p> 🔱 A monorepo template repository. Ideal for building maintenable NPM packages. Preconfigured to work well with Lerna, Typescript, React, Jest, Webpack, Eslint</p>
 </div>
 
