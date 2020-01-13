@@ -4,18 +4,34 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'User1',
+    caption: 'commitlint-jira',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
     image: '/img/undraw_open_source.svg',
-    infoLink: 'https://www.facebook.com',
+    infoLink: 'https://github.com/Gherciu/commitlint-jira',
+    pinned: true,
+  },
+  {
+    caption: 'sagittarius',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/image.jpg'.
+    image: '/img/undraw_open_source.svg',
+    infoLink: 'https://github.com/Gherciu/sagittarius',
+    pinned: true,
+  },
+  {
+    caption: 'redux-soldier',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/image.jpg'.
+    image: '/img/undraw_open_source.svg',
+    infoLink: 'https://github.com/Gherciu/redux-soldier',
     pinned: true,
   },
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
+  title: 'Multipack', // Title for your website.
+  tagline: 'A monorepo template repository',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -23,8 +39,8 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'multipack',
+  organizationName: 'multipack',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -47,8 +63,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#65ab7e',
-    secondaryColor: '#467758',
+    primaryColor: '#0052CC',
+    secondaryColor: '#172B4D',
   },
 
   /* Custom fonts for website */
@@ -66,7 +82,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Gherciu Gheorghe`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -90,14 +106,14 @@ const siteConfig = {
   // docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
+  enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+  enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+    repoUrl: 'https://github.com/Gherciu/multipack',
 };
 
 module.exports = siteConfig;
