@@ -7,7 +7,7 @@ const users = [
     caption: 'commitlint-jira',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
+    image: '/multipack/img/undraw_open_source.svg',
     infoLink: 'https://github.com/Gherciu/commitlint-jira',
     pinned: true,
   },
@@ -15,7 +15,7 @@ const users = [
     caption: 'sagittarius',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
+    image: '/multipack/img/undraw_open_source.svg',
     infoLink: 'https://github.com/Gherciu/sagittarius',
     pinned: true,
   },
@@ -23,7 +23,7 @@ const users = [
     caption: 'redux-soldier',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
+    image: '/multipack/img/undraw_open_source.svg',
     infoLink: 'https://github.com/Gherciu/redux-soldier',
     pinned: true,
   },
@@ -32,8 +32,8 @@ const users = [
 const siteConfig = {
   title: 'Multipack', // Title for your website.
   tagline: 'A monorepo template repository',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  url: 'https://gherciu.github.io', // Your website URL
+  baseUrl: '/multipack/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -98,8 +98,8 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/undraw_online.svg',
-  twitterImage: 'img/undraw_tweetstorm.svg',
+  ogImage: '/multipack/img/undraw_online.svg',
+  twitterImage: '/multipack/img/undraw_tweetstorm.svg',
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
