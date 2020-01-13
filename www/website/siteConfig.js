@@ -47,8 +47,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc4', label: 'Getting Started'},
-    {doc: 'doc1', label: 'API'},
+    {doc: 'doc-getting-started', label: 'Getting Started'},
+    {doc: 'doc-api-reference', label: 'API'},
     {blog: true, label: 'Blog'},
     {href: 'https://github.com/Gherciu/multipack', label: 'GitHub'},
   ],

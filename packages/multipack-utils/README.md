@@ -6,8 +6,8 @@
   <h1>multipack-utils</h1>
   <p>A set of utils for multipack package. Part of <a href="https://github.com/Gherciu/multipack">multipack</a> monorepo</p>
   <p>
-    <a href="https://gherciu.github.io/multipack/docs/getting-started">Getting Started</a>
-    | <a href="https://gherciu.github.io/multipack/docs/api">API</a>
+    <a href="https://gherciu.github.io/multipack/docs/doc-getting-started">Getting Started</a>
+    | <a href="https://gherciu.github.io/multipack/docs/doc-api-reference">API</a>
     | <a href="https://gherciu.github.io/multipack/blog/">Blog</a>
   </p>
 </div>
