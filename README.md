@@ -6,12 +6,12 @@
   <h1>
       multipack
   </h1>
-  <p> 🔱 A monorepo template repository. Ideal for building maintenable NPM packages. Preconfigured to work well with Lerna, Typescript, React, Jest, Webpack, Eslint</p>
+  <p> 🔱 A monorepo template repository. Ideal for building maintenable NPM packages. Preconfigured to work well with Lerna, Typescript, React, Jest, Webpack, Eslint.</p>
+  <p>Read more: <a href="https://gherciu.github.io/multipack/">Docs</a></p>
 </div>
 
 [![GitHub](https://img.shields.io/github/license/Gherciu/multipack)](https://github.com/Gherciu/multipack/blob/master/LICENSE)
 [![Multipack](https://img.shields.io/badge/Generated%20from-Gherciu%2Fmultipack-green)](https://github.com/Gherciu/multipack)
-[Documentation](https://gherciu.github.io/multipack/)
 
 ## Features
 
@@ -21,6 +21,7 @@
 - `Docusaurus` docs generator preconfigured to work well with `Github Pages`
 - Preconfigured `Jest` and `react-testing-library` to test `(ts|tsx)` files and colect coverage from all packages
 - Preconfigured `Github workflow actions` to run tests after each pushed commit
+
 
 ## Getting started.
 
