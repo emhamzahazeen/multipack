@@ -3,10 +3,8 @@
   <img width="200" height="200"
     src="https://raw.githubusercontent.com/Gherciu/multipack/master/logo.png">
   </a>
-  <h1>
-      multipack
-  </h1>
-  <p> 🔱 A monorepo template repository. Ideal for building maintenable NPM packages. Preconfigured to work well with Lerna, Typescript, React, Jest, Webpack, Eslint.</p>
+  <h1>multipack-with-react</h1>
+  <p>An example of react multipack package. Part of <a href="https://github.com/Gherciu/multipack">multipack</a> monorepo</p>
   <p>
     <a href="https://gherciu.github.io/multipack/docs/getting-started">Getting Started</a>
     | <a href="https://gherciu.github.io/multipack/docs/api">API</a>
