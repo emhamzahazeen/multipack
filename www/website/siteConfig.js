@@ -4,18 +4,10 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'commitlint-jira',
-    // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/multipack/img/undraw_operating_system.svg',
-    infoLink: 'https://github.com/Gherciu/commitlint-jira',
-    pinned: true,
-  },
-  {
     caption: 'sagittarius',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/multipack/img/undraw_operating_system.svg',
+    image: '/multipack/img/users/sagittarius.png',
     infoLink: 'https://github.com/Gherciu/sagittarius',
     pinned: true,
   },
@@ -23,8 +15,16 @@ const users = [
     caption: 'redux-soldier',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/multipack/img/undraw_operating_system.svg',
+    image: '/multipack/img/users/redux-soldier.png',
     infoLink: 'https://github.com/Gherciu/redux-soldier',
+    pinned: true,
+  },
+  {
+    caption: 'react-grapnel',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/image.jpg'.
+    image: '/multipack/img/users/react-grapnel.png',
+    infoLink: 'https://github.com/Gherciu/react-grapnel',
     pinned: true,
   },
 ];
