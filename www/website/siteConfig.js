@@ -74,6 +74,9 @@ const siteConfig = {
     secondaryColor: '#282C34',
   },
 
+  // Add or not scroll to top button
+  scrollToTop: true,
+
   /* Custom fonts for website */
   /*
   fonts: {
