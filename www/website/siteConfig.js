@@ -56,22 +56,16 @@ const siteConfig = {
   // package features
   features: [
     {
-      content: 'This is the content of my feature',
-      image: `/multipack/img/undraw_react.svg`,
-      imageAlign: 'top',
-      title: 'Feature One',
+      content: 'ESLint and Prettier to enforce code style.',
+      title: 'Preconfigured code linters',
     },
     {
-      content: 'The content of my second feature',
-      image: `/multipack/img/undraw_operating_system.svg`,
-      imageAlign: 'top',
-      title: 'Feature Two',
+      content: 'Preconfigured Jest and react-testing-library to test (ts|tsx) files and colect coverage from all packages',
+      title: 'Test development driven',
     },
     {
-      content: 'The content of my second feature',
-      image: `/multipack/img/undraw_operating_system.svg`,
-      imageAlign: 'top',
-      title: 'Feature Two',
+      content: 'Preconfigured Github workflow actions to run tests after each pushed commit',
+      title: 'Continuous integration',
     },
   ],
 
