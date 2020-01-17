@@ -22,7 +22,7 @@ const users = [
 const repoName = 'multipack'
 const siteConfig = {
   title: repoName.charAt(0).toUpperCase() + repoName.slice(1), // Title for your website.
-  tagline: 'A monorepo template repository',
+  tagline: '🔱 A monorepo template repository',
   url: 'https://gherciu.github.io', // Your website URL
   baseUrl: `/${repoName}/`, // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
