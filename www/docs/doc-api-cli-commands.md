@@ -1,5 +1,5 @@
 ---
-id: doc-cli-commands
+id: doc-api-cli-commands
 title: CLI Commands
 sidebar_label: CLI Commands
 ---

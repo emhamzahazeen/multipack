@@ -1,7 +1,7 @@
 ---
-id: doc-getting-started
-title: Getting Started
-sidebar_label: Getting Started
+id: doc-introduction
+title: Introduction
+sidebar_label: Introduction
 ---
 
 - Clone the project: `git clone --depth=1 https://github.com/Gherciu/multipack.git <YOUR_PROJECT_NAME>`
