@@ -6,7 +6,8 @@
   <h1>multipack-utils</h1>
   <p>A set of utils for multipack package. Part of <a href="https://github.com/Gherciu/multipack">multipack</a> monorepo</p>
   <p>
-    <a href="https://gherciu.github.io/multipack/docs/doc-introduction">Getting Started</a>
+    <a href="https://gherciu.github.io/multipack/">Site</a>
+    | <a href="https://gherciu.github.io/multipack/docs/doc-introduction">Getting Started</a>
     | <a href="https://gherciu.github.io/multipack/docs/doc-api-introduction">API</a>
     | <a href="https://gherciu.github.io/multipack/blog/">Blog</a>
   </p>
@@ -22,6 +23,10 @@
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
+
+#### Or you can sponsor via [Open Collective](https://opencollective.com/gherciu-gheorghe/)
+
+[![Open Collective](https://opencollective.com/gherciu-gheorghe/tiers/sponsor.svg?avatarHeight=60)](https://opencollective.com/gherciu-gheorghe/)
 
 ## Author
 

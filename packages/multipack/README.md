@@ -8,7 +8,8 @@
   </h1>
   <p> 🔱 A monorepo template repository. Ideal for building maintenable NPM packages. Preconfigured to work well with Lerna, Typescript, React, Jest, Webpack, Eslint.</p>
   <p>
-    <a href="https://gherciu.github.io/multipack/docs/doc-introduction">Getting Started</a>
+    <a href="https://gherciu.github.io/multipack/">Site</a>
+    | <a href="https://gherciu.github.io/multipack/docs/doc-introduction">Getting Started</a>
     | <a href="https://gherciu.github.io/multipack/docs/doc-api-introduction">API</a>
     | <a href="https://gherciu.github.io/multipack/blog/">Blog</a>
   </p>
@@ -68,6 +69,10 @@ This will run the build script and then publish your packages. It is currently s
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
+
+#### Or you can sponsor via [Open Collective](https://opencollective.com/gherciu-gheorghe/)
+
+[![Open Collective](https://opencollective.com/gherciu-gheorghe/tiers/sponsor.svg?avatarHeight=60)](https://opencollective.com/gherciu-gheorghe/)
 
 ## Author
 
