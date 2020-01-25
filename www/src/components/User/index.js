@@ -1,6 +1,5 @@
 import React from 'react';
 import classnames from 'classnames';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 function User({imageUrl, title, url}) {
