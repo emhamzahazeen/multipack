@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://gherciu.github.io/multipack/">
-  <img width="200" height="200"
+  <img style="max-width:100%;" height="200"
     src="https://raw.githubusercontent.com/Gherciu/multipack/master/logo.png">
   </a>
   <h1>multipack-utils</h1>
