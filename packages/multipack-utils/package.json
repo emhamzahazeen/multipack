@@ -13,6 +13,14 @@
     "type": "git",
     "url": "https://github.com/episclera/multipack"
   },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/episclera"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/episclera"
+  },
   "keywords": [
     "lerna",
     "monorepo",
@@ -25,7 +33,8 @@
   "types": "./@types",
   "scripts": {
     "build": "rimraf ./build && cross-env NODE_ENV=production webpack",
-    "watch": "cross-env NODE_ENV=development webpack -w"
+    "watch": "cross-env NODE_ENV=development webpack -w",
+    "postinstall": "opencollective-postinstall || exit 0"
   },
   "devDependencies": {
     "cross-env": "^5.2.1",
@@ -34,6 +43,9 @@
     "typescript": "^3.6.3",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.8"
+  },
+  "dependencies": {
+    "opencollective-postinstall": "^2.0.2"
   },
   "gitHead": "e5f694604ed9977f614ecdb25eea64de748a7705"
 }
