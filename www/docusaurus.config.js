@@ -2,10 +2,10 @@ const pkg = require('../package.json')
 module.exports = {
   title: pkg.name,
   tagline: pkg.description,
-  url: `https://gherciu.github.io`,
+  url: `https://episclera.github.io`,
   baseUrl: `/${pkg.name}/`,
   favicon: 'img/logo.png',
-  organizationName: 'Gherciu', // Usually your GitHub org/user name.
+  organizationName: 'episclera', // Usually your GitHub org/user name.
   projectName: pkg.name, // Usually your repo name.
   themeConfig: {
     navbar: {

@@ -66,3 +66,8 @@
 .text-center {
   text-align: center;
 }
+
+.footer .footer__logo {
+  width: 40px;
+  height: 40px;
+}
