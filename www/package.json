@@ -19,11 +19,11 @@
     "deploy": "cross-env GIT_USER=episclera docusaurus deploy"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.40",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.40",
-    "classnames": "^2.2.6",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "@docusaurus/core": "2.0.0-alpha.40",
+    "@docusaurus/preset-classic": "2.0.0-alpha.40",
+    "classnames": "2.2.6",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
   },
   "browserslist": {
     "production": [
@@ -38,6 +38,6 @@
     ]
   },
   "devDependencies": {
-    "cross-env": "^6.0.3"
+    "cross-env": "6.0.3"
   }
 }
