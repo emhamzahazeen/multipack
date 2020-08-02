@@ -40,12 +40,12 @@
     "postinstall": "opencollective-postinstall || exit 0"
   },
   "devDependencies": {
-    "cross-env": "^5.2.1",
-    "rimraf": "^2.6.3",
-    "ts-loader": "^6.1.0",
-    "typescript": "^3.6.3",
-    "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.8"
+    "cross-env": "5.2.1",
+    "rimraf": "2.7.1",
+    "ts-loader": "6.1.0",
+    "typescript": "3.6.3",
+    "webpack": "4.40.2",
+    "webpack-cli": "3.3.8"
   },
   "dependencies": {
     "@episclera/multipack-utils": "^2.0.1",
