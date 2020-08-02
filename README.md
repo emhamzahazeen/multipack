@@ -1,7 +1,7 @@
 <div align="center">
-  <a href="https://gherciu.github.io/multipack/">
+  <a href="https://episclera.github.io/multipack/">
   <img style="max-width:100%;" height="200"
-    src="https://raw.githubusercontent.com/Gherciu/multipack/master/logo.png">
+    src="https://raw.githubusercontent.com/episclera/multipack/master/logo.png">
   </a>
   <h1>
       multipack
@@ -9,15 +9,15 @@
   <p> 🔱 A monorepo template repository. Ideal for building maintenable NPM packages. Preconfigured to work well with Lerna, Typescript, React, Jest, Webpack, Eslint.</p>
   <p>
   <p>
-    <a href="https://gherciu.github.io/multipack/">Site</a>
-    | <a href="https://gherciu.github.io/multipack/docs/doc-introduction">Getting Started</a>
-    | <a href="https://gherciu.github.io/multipack/docs/doc-api-introduction">API</a>
-    | <a href="https://gherciu.github.io/multipack/blog/">Blog</a>
+    <a href="https://episclera.github.io/multipack/">Site</a>
+    | <a href="https://episclera.github.io/multipack/docs/doc-introduction">Getting Started</a>
+    | <a href="https://episclera.github.io/multipack/docs/doc-api-introduction">API</a>
+    | <a href="https://episclera.github.io/multipack/blog/">Blog</a>
   </p>
 </div>
 
-[![GitHub](https://img.shields.io/github/license/Gherciu/multipack)](https://github.com/Gherciu/multipack/blob/master/LICENSE)
-[![Multipack](https://img.shields.io/badge/Generated%20from-Gherciu%2Fmultipack-green)](https://github.com/Gherciu/multipack)
+[![GitHub](https://img.shields.io/github/license/episclera/multipack)](https://github.com/episclera/multipack/blob/master/LICENSE)
+[![Multipack](https://img.shields.io/badge/Generated%20from-episclera%2Fmultipack-green)](https://github.com/episclera/multipack)
 
 ## Features
 
@@ -30,7 +30,7 @@
 
 ## Getting started.
 
-- Clone the project: `git clone --depth=1 https://github.com/Gherciu/multipack.git <YOUR_PROJECT_NAME>`
+- Clone the project: `git clone --depth=1 https://github.com/episclera/multipack.git <YOUR_PROJECT_NAME>`
 - Setup project: `npm install`
 
 Running `npm run link:packages` will installing all packages dependencies and linking any cross-dependencies. This command is crucial, as it allows you to use your package names in `require()` as if the packages were already existing and available in your `node_modules` folder.
@@ -71,13 +71,13 @@ This will run the build script and then publish your packages. It is currently s
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-#### Or you can sponsor via [Open Collective](https://opencollective.com/gherciu-gheorghe/)
+#### Or you can sponsor via [Open Collective](https://opencollective.com/episclera/)
 
-[![Open Collective](https://opencollective.com/gherciu-gheorghe/tiers/sponsor.svg?avatarHeight=60)](https://opencollective.com/gherciu-gheorghe/)
+[![Open Collective](https://opencollective.com/episclera/tiers/sponsor.svg?avatarHeight=60)](https://opencollective.com/episclera/)
 
 ## Author
 
-**[@Gherciu/multipack](https://github.com/Gherciu/multipack)** © [GHERCIU](https://github.com/Gherciu), Released under the [MIT](https://github.com/Gherciu/multipack/blob/master/LICENSE) License.<br>
-Authored and maintained by GHERCIU with help from contributors ([list](https://github.com/Gherciu/multipack/contributors)).
+**[@episclera/multipack](https://github.com/episclera/multipack)** © [Episclera](https://github.com/episclera), Released under the [MIT](https://github.com/episclera/multipack/blob/master/LICENSE) License.<br>
+Authored and maintained by Episclera with help from contributors ([list](https://github.com/episclera/multipack/contributors)).
 
-#### If you like this repository star⭐ and watch👀 on [GitHub](https://github.com/Gherciu/multipack)
+#### If you like this repository star⭐ and watch👀 on [GitHub](https://github.com/episclera/multipack)

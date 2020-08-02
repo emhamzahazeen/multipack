@@ -4,22 +4,22 @@
   "version": "1.1.1",
   "license": "MIT",
   "author": {
-    "name": "Gherciu Gheorghe",
-    "email": "gherciu553@gmail.com",
-    "url": "https://gherciu.github.io/"
+    "name": "Episclera",
+    "email": "episclera@episclera.com",
+    "url": "https://episclera.github.io/"
+  },
+  "homepage": "https://episclera.github.io/multipack/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/episclera/multipack"
   },
   "keywords": [
     "lerna",
     "monorepo",
     "multipack"
   ],
-  "homepage": "https://gherciu.github.io/multipack/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Gherciu/multipack"
-  },
   "bugs": {
-    "url": "https://github.com/Gherciu/multipack/issues"
+    "url": "https://github.com/episclera/multipack/issues"
   },
   "main": "./build/index.js",
   "types": "./@types",

@@ -2,11 +2,21 @@
   "name": "www",
   "version": "0.0.0",
   "private": true,
+  "author": {
+    "name": "Episclera",
+    "email": "episclera@episclera.com",
+    "url": "https://episclera.github.io/"
+  },
+  "homepage": "https://episclera.github.io/multipack/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/episclera/multipack"
+  },
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "cross-env GIT_USER=gherciu docusaurus deploy"
+    "deploy": "cross-env GIT_USER=episclera docusaurus deploy"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.40",
