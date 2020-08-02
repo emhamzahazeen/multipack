@@ -3,7 +3,7 @@
   <img style="max-width:100%;" height="200"
     src="https://raw.githubusercontent.com/episclera/multipack/master/logo.png">
   </a>
-  <h1>multipack-with-react</h1>
+  <h1>@episclera/multipack-with-react</h1>
   <p>An example of react multipack package. Part of <a href="https://github.com/episclera/multipack">multipack</a> monorepo</p>
   <p>
     <a href="https://episclera.github.io/multipack/">Site</a>
@@ -18,11 +18,11 @@
 
 ## Getting started
 
-- Install: `npm i multipack-with-react`
+- Install: `npm i @episclera/multipack-with-react`
 
 ```js
 import React from 'react'
-import useCounter from 'multipack-with-react'
+import useCounter from '@episclera/multipack-with-react'
 
 const App = () => {
   const { count, increment, decrement } = useCounter(0)
@@ -40,7 +40,7 @@ Or use via cdn:
 
 ```html
 <!--index.html-->
-<script src="https://cdn.jsdelivr.net/npm/multipack-with-react@latest/build/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@episclera/multipack-with-react@latest/build/index.js"></script>
 <script>
   const App = () => {
     const { count, increment, decrement } = multipackWithReact(0)

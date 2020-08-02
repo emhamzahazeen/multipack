@@ -1,5 +1,5 @@
 {
-  "name": "multipack-with-react",
+  "name": "@episclera/multipack-with-react",
   "description": "An example of react multipack package",
   "version": "1.1.1",
   "license": "MIT",

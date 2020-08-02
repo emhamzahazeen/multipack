@@ -1,5 +1,5 @@
 {
-  "name": "multipack",
+  "name": "@episclera/multipack",
   "description": "🔱 Simple monorepo template repository.",
   "version": "1.0.0",
   "license": "MIT",

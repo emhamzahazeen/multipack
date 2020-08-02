@@ -1,5 +1,5 @@
-import { TUseCounter } from 'multipack-with-react'
-import { TToNumber } from '../../multipack-utils/@types'
+import { TUseCounter } from '@episclera/multipack-with-react'
+import { TToNumber } from '@episclera/multipack-utils/@types'
 
 export interface Multipack {
   toNumber: TToNumber

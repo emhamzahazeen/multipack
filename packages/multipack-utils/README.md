@@ -3,7 +3,7 @@
   <img style="max-width:100%;" height="200"
     src="https://raw.githubusercontent.com/episclera/multipack/master/logo.png">
   </a>
-  <h1>multipack-utils</h1>
+  <h1>@episclera/multipack-utils</h1>
   <p>A set of utils for multipack package. Part of <a href="https://github.com/episclera/multipack">multipack</a> monorepo</p>
   <p>
     <a href="https://episclera.github.io/multipack/">Site</a>
