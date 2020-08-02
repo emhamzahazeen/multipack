@@ -1,7 +1,7 @@
 {
   "name": "@episclera/multipack-core",
   "description": "🔱 Simple monorepo template repository.",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "license": "MIT",
   "author": {
     "name": "Episclera",
@@ -45,8 +45,8 @@
     "webpack-cli": "^3.3.8"
   },
   "dependencies": {
-    "@episclera/multipack-utils": "^1.1.1",
-    "@episclera/multipack-with-react": "^1.1.1",
+    "@episclera/multipack-utils": "^2.0.0",
+    "@episclera/multipack-with-react": "^2.0.0",
     "opencollective-postinstall": "^2.0.2"
   },
   "gitHead": "e5f694604ed9977f614ecdb25eea64de748a7705"
