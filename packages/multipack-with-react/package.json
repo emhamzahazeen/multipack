@@ -40,19 +40,19 @@
     "postinstall": "opencollective-postinstall || exit 0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/react-hooks": "^3.2.1",
-    "@types/react": "^16.9.17",
-    "cross-env": "^5.2.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-test-renderer": "^16.12.0",
-    "rimraf": "^2.6.3",
-    "ts-loader": "^6.1.0",
-    "typescript": "^3.6.3",
-    "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.8"
+    "@testing-library/jest-dom": "4.2.4",
+    "@testing-library/react": "9.4.0",
+    "@testing-library/react-hooks": "3.2.1",
+    "@types/react": "16.9.17",
+    "cross-env": "5.2.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-test-renderer": "16.12.0",
+    "rimraf": "2.7.1",
+    "ts-loader": "6.2.1",
+    "typescript": "3.7.4",
+    "webpack": "4.41.5",
+    "webpack-cli": "3.3.10"
   },
   "dependencies": {
     "opencollective-postinstall": "^2.0.2"
