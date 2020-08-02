@@ -3,6 +3,9 @@
   "description": "A set of utils for multipack monorepo repository.",
   "version": "2.0.0",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "author": {
     "name": "Episclera",
     "email": "episclera@episclera.com",
@@ -47,5 +50,5 @@
   "dependencies": {
     "opencollective-postinstall": "^2.0.2"
   },
-  "gitHead": "e5f694604ed9977f614ecdb25eea64de748a7705"
+  "gitHead": "8635a43c9abe3ab19ed07077384ebf40fbd7717c"
 }
