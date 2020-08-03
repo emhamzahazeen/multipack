@@ -81,6 +81,6 @@
     "typescript": "3.6.3"
   },
   "dependencies": {
-    "opencollective-postinstall": "2.0.2"
+    "opencollective-postinstall": "2.0.3"
   }
 }
