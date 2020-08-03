@@ -40,7 +40,7 @@
     "postinstall": "opencollective-postinstall || exit 0"
   },
   "devDependencies": {
-    "cross-env": "5.2.1",
+    "cross-env": "7.0.2",
     "rimraf": "2.7.1",
     "ts-loader": "6.2.2",
     "typescript": "3.6.3",
