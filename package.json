@@ -78,7 +78,7 @@
     "lint-staged": "10.2.11",
     "prettier": "2.0.5",
     "ts-jest": "26.1.4",
-    "typescript": "3.6.3"
+    "typescript": "3.9.7"
   },
   "dependencies": {
     "opencollective-postinstall": "2.0.3"
