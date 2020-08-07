@@ -5,7 +5,7 @@ module.exports = {
       statements: 100,
       branches: 100,
       functions: 80,
-      lines: 100,
+      lines: 70,
     },
   },
   testRegex: 'tests/.*\\.test\\.(ts|tsx)$',
