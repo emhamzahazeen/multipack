@@ -7,18 +7,13 @@ const prettierOptions = JSON.parse(
 
 module.exports = {
   parser: '@typescript-eslint/parser',
-  extends: [
-  'airbnb',
-  'plugin:@typescript-eslint/recommended',
-  'prettier/@typescript-eslint',
-  'plugin:prettier/recommended',
-  'plugin:react/recommended'
-  ],
+  extends: ['airbnb', 'prettier/@typescript-eslint', 'prettier/react'],
+  plugins: ['@typescript-eslint', 'prettier', 'react', 'react-hooks', 'jsx-a11y'],
   parserOptions: {
     project: './tsconfig.json',
     ecmaVersion: 6,
-    "ecmaFeatures": {
-      "jsx": true
+    ecmaFeatures: {
+      jsx: true
     },
     sourceType: 'module',
   },
@@ -31,11 +26,12 @@ module.exports = {
   rules: {
     'prettier/prettier': ['error', prettierOptions],
     'react/jsx-filename-extension': ['error', { 'extensions': ['.tsx'] }],
+    'react/jsx-props-no-spreading': 0,
   },
   settings: {
     'import/resolver': {
       node: {
-        'extensions': ['.ts', '.tsx', '.d.ts'],
+        extensions: ['.ts', '.tsx', '.d.ts'],
       },
     },
   },
