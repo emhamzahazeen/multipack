@@ -51,6 +51,10 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
+# ide
+.idea
+.vscode/
+
 # Mac files
 .DS_Store
 
