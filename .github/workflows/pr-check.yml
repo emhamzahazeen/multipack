@@ -20,8 +20,8 @@ jobs:
         run: |
           npm install
           npm run link:packages
+          npm run build:packages
           npm run lint:packages
           npm run test:packages
-          npm run build:packages
         env:
           CI: true
