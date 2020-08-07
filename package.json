@@ -1,6 +1,6 @@
 {
   "name": "multipack",
-  "description": "🔱 Simple monorepo template repository.",
+  "description": "🔱 A monorepo template repository. Ideal for building shareable JavaScript packages or React modules.",
   "version": "1.0.0",
   "license": "MIT",
   "publishConfig": {
