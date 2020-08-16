@@ -1,4 +1,3 @@
 {
-  "extends": ["config:base"],
-  "labels": ["renovate"]
+  "extends": ["@episclera"]
 }
