@@ -22,16 +22,12 @@
 
 ```js
 import React from 'react'
-import useCounter from '@episclera/multipack-with-react'
+import { Counter, useCounter } from '@episclera/multipack-with-react'
 
 const App = () => {
   const { count, increment, decrement } = useCounter(0)
   return (
-    <div>
-      <button onClick={decrement}>-</button>
-      <span>{count}</span>
-      <button onClick={increment}>+</button>
-    </div>
+    <Counter count={count} onDecrement={decrement} onIncrement={increment} />
   )
 }
 ```
@@ -42,14 +38,11 @@ Or use via cdn:
 <!--index.html-->
 <script src="https://cdn.jsdelivr.net/npm/@episclera/multipack-with-react@latest/build/index.js"></script>
 <script>
+  const { Counter, useCounter } = multipackWithReact
   const App = () => {
-    const { count, increment, decrement } = multipackWithReact(0)
+    const { count, increment, decrement } = useCounter(0)
     return (
-      <div>
-        <button onClick={decrement}>-</button>
-        <span>{count}</span>
-        <button onClick={increment}>+</button>
-      </div>
+      <Counter count={count} onDecrement={decrement} onIncrement={increment} />
     )
   }
 </script>

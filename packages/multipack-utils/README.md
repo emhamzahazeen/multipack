@@ -16,6 +16,26 @@
 [![GitHub](https://img.shields.io/github/license/episclera/multipack)](https://github.com/episclera/multipack/blob/master/LICENSE)
 [![Multipack](https://img.shields.io/badge/Generated%20from-episclera%2Fmultipack-green)](https://github.com/episclera/multipack)
 
+## Getting started
+
+- Install: `npm i @episclera/multipack-utils`
+
+```js
+import { toNumber } from '@episclera/multipack-utils'
+
+console.log(toNumber('21'))
+```
+
+Or use via cdn:
+
+```html
+<!--index.html-->
+<script src="https://cdn.jsdelivr.net/npm/@episclera/multipack-utils@latest/build/index.js"></script>
+<script>
+  console.log(multipackUtils.toNumber('21'))
+</script>
+```
+
 ## Contributing
 
 1. Fork it!

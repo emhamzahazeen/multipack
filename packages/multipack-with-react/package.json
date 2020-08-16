@@ -33,7 +33,7 @@
     "url": "https://github.com/episclera/multipack/issues"
   },
   "main": "./build/index.js",
-  "types": "./@types",
+  "types": "./types",
   "scripts": {
     "build": "rimraf ./build && cross-env NODE_ENV=production webpack",
     "watch": "cross-env NODE_ENV=development webpack -w",
@@ -58,8 +58,8 @@
     "opencollective-postinstall": "^2.0.2"
   },
   "peerDependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "gitHead": "8635a43c9abe3ab19ed07077384ebf40fbd7717c"
 }

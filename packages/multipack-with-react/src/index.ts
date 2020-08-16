@@ -1,18 +1,13 @@
-import { useState, useCallback } from 'react'
-import { TUseCounter } from '../@types'
+/* istanbul ignore file */
+import useCounter from './useCounter'
+import Counter from './Counter'
 
-const useCounter: TUseCounter = (initialValue = 0) => {
-  const [count, setCount] = useState(initialValue)
+import { MultipackWithReact } from '../types'
 
-  const increment = useCallback(() => {
-    setCount(count + 1)
-  }, [count])
-
-  const decrement = useCallback(() => {
-    setCount(count - 1)
-  }, [count])
-
-  return { count, increment, decrement }
+const multipackWithReact: MultipackWithReact = {
+  useCounter,
+  Counter,
 }
 
-export default useCounter
+export { useCounter, Counter }
+export default multipackWithReact

@@ -1,6 +1,6 @@
-import { TToNumber, MultipackUtils } from '../@types'
-
-const toNumber: TToNumber = value => Number(value)
+/* istanbul ignore file */
+import toNumber from './toNumber'
+import { MultipackUtils } from '../types'
 
 const multipackUtils: MultipackUtils = {
   toNumber,
