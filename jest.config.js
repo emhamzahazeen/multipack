@@ -4,8 +4,8 @@ module.exports = {
     global: {
       statements: 100,
       branches: 100,
-      functions: 80,
-      lines: 70,
+      functions: 100,
+      lines: 100,
     },
   },
   testRegex: 'tests/.*\\.test\\.(ts|tsx)$',
