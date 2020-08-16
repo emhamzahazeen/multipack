@@ -58,7 +58,7 @@ This will run the build script and then publish your packages. It is currently s
 
 `npm run fix:packages` - lint and fix all packages
 
-`npm run start:docs` - start a [Docusaurus](https://docusaurus.io/) server that serve files from `/www` folder predestinated for docs.
+`npm run start:docs` - start a [Docusaurus](https://docusaurus.io/) server that serve files from `/docs` folder predestinated for docs.
 
 `npm run publish:docs` - publish generated docs with [Docusaurus](https://docusaurus.io/) to `Github Pages`
 

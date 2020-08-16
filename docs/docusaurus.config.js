@@ -1,4 +1,5 @@
 const pkg = require('../package.json')
+
 module.exports = {
   title: pkg.name,
   tagline: pkg.description,
@@ -14,9 +15,9 @@ module.exports = {
         alt: pkg.name,
         src: 'img/logo.png',
       },
-      links: [
-        {to: 'docs/doc-introduction', label: 'Docs', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'left'},
+      items: [
+        { to: 'docs/doc-introduction', label: 'Docs', position: 'left' },
+        { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: pkg.repository.url,
           label: 'GitHub',
@@ -81,8 +82,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            `${pkg.repository.url}/edit/master/www/`,
+          editUrl: `${pkg.repository.url}/edit/master/docs/`,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -90,4 +90,4 @@ module.exports = {
       },
     ],
   ],
-};
+}
