@@ -58,7 +58,6 @@
   },
   "devDependencies": {
     "@commitlint/cli": "9.1.2",
-    "@commitlint/config-conventional": "9.1.2",
     "@episclera/toolkit": "1.0.6",
     "@types/jest": "26.0.10",
     "@typescript-eslint/eslint-plugin": "3.9.1",
