@@ -1,9 +1,4 @@
-const fs = require('fs')
-const path = require('path')
-
-const prettierOptions = JSON.parse(
-  fs.readFileSync(path.resolve(__dirname, '.prettierrc'), 'utf8'),
-)
+const { prettierConfig } = require('@episclera/toolkit')
 
 module.exports = {
   parser: '@typescript-eslint/parser',
@@ -34,7 +29,7 @@ module.exports = {
     es6: true,
   },
   rules: {
-    'prettier/prettier': ['error', prettierOptions],
+    'prettier/prettier': ['error', prettierConfig],
     'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }],
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
