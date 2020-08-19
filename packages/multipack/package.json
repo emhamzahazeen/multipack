@@ -49,8 +49,8 @@
     "webpack-cli": "3.3.12"
   },
   "dependencies": {
-    "@episclera/multipack-utils": "^5.0.0",
-    "@episclera/multipack-with-react": "^5.0.0",
+    "@episclera/multipack-utils": "5.0.0",
+    "@episclera/multipack-with-react": "5.0.0",
     "opencollective-postinstall": "2.0.3"
   },
   "peerDependencies": {
