@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 const { prettierConfig } = require('@episclera/toolkit')
 
 module.exports = {
