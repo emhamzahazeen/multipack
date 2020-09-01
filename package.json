@@ -33,7 +33,7 @@
     "url": "https://github.com/episclera/multipack/issues"
   },
   "scripts": {
-    "build:packages": "lerna run build",
+    "build:packages": "lerna run build --since",
     "watch:packages": "lerna run watch",
     "link:packages": "lerna bootstrap",
     "publish:packages": "npm run link:packages && npm run build:packages && lerna publish --message=\"chore: publish changed packages\"",
