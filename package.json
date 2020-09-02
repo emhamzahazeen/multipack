@@ -59,7 +59,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "9.1.2",
-    "@episclera/toolkit": "1.0.15",
+    "@episclera/toolkit": "1.0.16",
     "@types/jest": "26.0.12",
     "@typescript-eslint/eslint-plugin": "4.0.1",
     "@typescript-eslint/parser": "4.0.1",
@@ -78,7 +78,6 @@
     "lerna": "3.22.1",
     "lint-staged": "10.2.13",
     "prettier": "2.1.1",
-    "ts-jest": "26.3.0",
     "typescript": "4.0.2"
   },
   "dependencies": {
