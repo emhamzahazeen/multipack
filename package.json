@@ -59,8 +59,8 @@
   },
   "devDependencies": {
     "@commitlint/cli": "9.1.2",
-    "@episclera/toolkit": "1.0.17",
-    "@types/jest": "26.0.12",
+    "@episclera/toolkit": "1.0.24",
+    "@types/jest": "26.0.13",
     "@typescript-eslint/eslint-plugin": "4.0.1",
     "@typescript-eslint/parser": "4.0.1",
     "eslint": "7.8.1",
@@ -76,7 +76,7 @@
     "husky": "4.2.5",
     "jest": "26.4.2",
     "lerna": "3.22.1",
-    "lint-staged": "10.2.13",
+    "lint-staged": "10.3.0",
     "prettier": "2.1.1",
     "typescript": "4.0.2"
   },
