@@ -1,7 +1,7 @@
 {
   "name": "@episclera/multipack-core",
   "description": "🔱 A monorepo template repository. Ideal for building shareable JavaScript packages or React modules.",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -52,8 +52,8 @@
     "webpack-cli": "3.3.12"
   },
   "dependencies": {
-    "@episclera/multipack-utils": "^5.0.1",
-    "@episclera/multipack-with-react": "^5.0.1",
+    "@episclera/multipack-utils": "^5.0.2",
+    "@episclera/multipack-with-react": "^5.0.2",
     "opencollective-postinstall": "2.0.3"
   },
   "peerDependencies": {
