@@ -8,7 +8,6 @@
   </h1>
   <p> 🔱 A monorepo template repository. Ideal for building shareable JavaScript packages or React modules.</p>
   <p>
-  <p>
     <a href="https://episclera.github.io/multipack/">Site</a>
     | <a href="https://episclera.github.io/multipack/docs/doc-introduction">Getting Started</a>
     | <a href="https://episclera.github.io/multipack/docs/doc-api-introduction">API</a>
