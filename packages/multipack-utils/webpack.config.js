@@ -1,29 +1,11 @@
-/* eslint-disable */
-const path = require('path')
+const {
+  commonWebpackConfig,
+  packageWebpackConfig,
+} = require('@episclera/webpack-config')
+const { mergeConfigs } = require('@episclera/toolkit-utils')
 
-module.exports = {
-  mode:process.env.NODE_ENV,
-  target: 'node',
-  entry: path.resolve(__dirname, 'src/index.ts'),
+module.exports = mergeConfigs(commonWebpackConfig, packageWebpackConfig, {
   output: {
-    filename: 'index.js',
-    path: path.resolve(__dirname, 'build'),
     library: 'multipackUtils',
-    libraryTarget: 'umd',
-    libraryExport: 'default',
-    umdNamedDefine: true,
-    globalObject: 'this'
   },
-  module: {
-    rules: [
-      {
-        test: /\.tsx?$/,
-        use: 'ts-loader',
-        exclude: /node_modules/,
-      },
-    ],
-  },
-  resolve: {
-    extensions: ['.ts', '.tsx'],
-  },
-}
+})
