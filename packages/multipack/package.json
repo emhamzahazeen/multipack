@@ -1,7 +1,7 @@
 {
   "name": "@episclera/multipack-core",
   "description": "🔱 A monorepo template repository. Ideal for building shareable JavaScript packages or React modules.",
-  "version": "5.0.5",
+  "version": "5.0.6",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
