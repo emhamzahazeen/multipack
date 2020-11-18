@@ -48,7 +48,9 @@ This will run the build script and then publish your packages. It is currently s
 
 `npm run pre:publish:packages` - Bump version of packages changed since the last release
 
-`npm run publish:packages` - publish packages where the latest version is not present in the registry
+`npm run publish:packages:npm` - publish packages where the latest version is not present in the `NPM` registry
+
+`npm run publish:packages:github` - publish packages where the latest version is not present in the `GitHub` registry
 
 `npm run link:packages` - will installing all packages dependencies and linking any cross-dependencies in each package
 

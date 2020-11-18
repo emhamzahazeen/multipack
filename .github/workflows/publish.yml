@@ -31,18 +31,22 @@ jobs:
       - name: Pre-Publish packages
         run: |
           yes | npm run pre:publish:packages
-      - name: Publish to NPM
+      - name: Prepare .npmrc file to publish packages to NPM registry
         uses: actions/setup-node@v1
         with:
           registry-url: 'https://registry.npmjs.org'
-      - run: yes | npm run publish:packages:npm
+      - name: Publish to NPM
+        run: |
+          yes | npm run publish:packages:npm
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - name: Publish to GitHub Packages
+      - name: Prepare .npmrc file to publish packages to GitHub registry
         uses: actions/setup-node@v1
         with:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@episclera'
-      - run: yes | npm run publish:packages:github
+      - name: Publish to GitHub
+        run: |
+          yes | npm run publish:packages:github
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
