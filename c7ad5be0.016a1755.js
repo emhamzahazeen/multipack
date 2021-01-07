@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[17],{91:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Release 1.0.0 \ud83e\udd73","permalink":"/multipack/blog/2020/01/15/release-1.0.0"}]}')}}]);

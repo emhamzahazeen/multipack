@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>multipack Blog</title>
+        <link>https://episclera.github.io/blog</link>
+        <description>multipack Blog</description>
+        <lastBuildDate>Wed, 15 Jan 2020 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Release 1.0.0 🥳]]></title>
+            <link>https://episclera.github.io/multipack/blog/welcome</link>
+            <guid>welcome</guid>
+            <pubDate>Wed, 15 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Version 1.0.0 has ben released.]]></description>
+        </item>
+    </channel>
+</rss>
