@@ -44,7 +44,7 @@ Running `npm run link:packages` will installing all packages dependencies and li
 
 `npm run start:packages` - build and serve (aplications,apis) packages
 
-`npm run version:packages` - Bump package versions and Create release tags
+`npm run version:packages` - Bump package versions and Create release tags and Changelogs
 
 `npm run publish:packages:npm` - publish packages where the latest version is not present in the `NPM` registry
 
