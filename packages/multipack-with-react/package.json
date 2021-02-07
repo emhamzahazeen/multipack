@@ -1,7 +1,11 @@
 {
   "name": "@episclera/multipack-with-react",
   "description": "An example of react multipack package",
+<<<<<<< HEAD
   "version": "5.1.0",
+=======
+  "version": "5.1.1",
+>>>>>>> master
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -40,17 +44,30 @@
     "postinstall": "opencollective-postinstall || exit 0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@episclera/configkit-utils": "1.1.2",
     "@episclera/webpack-config": "1.1.2",
     "@testing-library/react": "11.2.5",
     "@testing-library/react-hooks": "5.0.3",
     "@types/react": "17.0.1",
+=======
+    "@episclera/configkit-utils": "1.0.48",
+    "@episclera/webpack-config": "1.0.38",
+    "@testing-library/react": "11.2.3",
+    "@testing-library/react-hooks": "5.0.3",
+    "@types/react": "17.0.0",
+>>>>>>> master
     "cross-env": "7.0.3",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "rimraf": "3.0.2",
+<<<<<<< HEAD
     "webpack": "5.21.1",
     "webpack-cli": "4.5.0"
+=======
+    "webpack": "5.17.0",
+    "webpack-cli": "4.4.0"
+>>>>>>> master
   },
   "dependencies": {
     "opencollective-postinstall": "2.0.3"

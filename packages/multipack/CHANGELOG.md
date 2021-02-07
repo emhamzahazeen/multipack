@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.1.1 (2021-01-26)
+
+**Note:** Version bump only for package @episclera/multipack-core
+
+
+
+
+
 # [5.1.0](https://github.com/episclera/multipack/compare/@episclera/multipack-core@5.0.44...@episclera/multipack-core@5.1.0) (2021-01-26)
 
 
