@@ -6,7 +6,7 @@
   <h1>
       multipack
   </h1>
-  <p> 🔱 A monorepo template repository. Ideal for building shareable JavaScript packages or React modules.</p>
+  <p> 🔱 All in one tool for monorepos.</p>
   <p>
     <a href="https://episclera.github.io/multipack/">Site</a>
     | <a href="https://episclera.github.io/multipack/docs/doc-introduction">Getting Started</a>
@@ -20,19 +20,14 @@
 
 ## Features
 
-- `Lerna` structure to build monorepo packages
-- `ESLint` and `Prettier` to enforce code style.
-- Pre-commit hooks with `husky` and `lint-staged`
-- `Docusaurus` docs generator preconfigured to work well with `Github Pages`
-- Preconfigured `Jest` and `react-testing-library` to test `(ts|tsx)` files and colect coverage from all packages
-- Preconfigured `Github workflow actions` to run tests after each pushed commit
+- Manage and Create monorepo projects.
+- Manage and configure code style linters.
+- Manage and configure test processes for monorepos.
+- Manage and configure `Github workflow actions` for monorepos.
 
 ## Getting started.
 
-- Clone the project: `git clone --depth=1 https://github.com/episclera/multipack.git <YOUR_PROJECT_NAME>`
-- Setup project: `npm install` and `npm run link:packages`
-
-Running `npm run link:packages` will installing all packages dependencies and linking any cross-dependencies. This command is crucial, as it allows you to use your package names in `require()` as if the packages were already existing and available in your `node_modules` folder.
+Install: `npm i @episclera/multipack -D`
 
 ## CLI Commands
 
