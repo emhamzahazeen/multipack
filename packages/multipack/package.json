@@ -1,7 +1,7 @@
 {
   "name": "@episclera/multipack",
   "description": "🔱 All in one tool for monorepos.",
-  "version": "5.1.1",
+  "version": "5.1.2",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -51,8 +51,8 @@
     "webpack-cli": "4.5.0"
   },
   "dependencies": {
-    "@episclera/multipack-utils": "^5.1.0",
-    "@episclera/multipack-with-react": "^5.1.0",
+    "@episclera/multipack-utils": "^5.1.2",
+    "@episclera/multipack-with-react": "^5.1.2",
     "opencollective-postinstall": "2.0.3"
   },
   "peerDependencies": {
