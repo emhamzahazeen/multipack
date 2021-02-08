@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.1.3 (2021-02-08)
+
+**Note:** Version bump only for package @episclera/multipack-with-react
+
+
+
+
+
 ## 5.1.2 (2021-02-07)
 
 **Note:** Version bump only for package @episclera/multipack-with-react
