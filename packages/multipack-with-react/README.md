@@ -32,22 +32,6 @@ const App = () => {
 }
 ```
 
-Or use via cdn:
-
-```html
-<!--index.html-->
-<script src="https://cdn.jsdelivr.net/npm/@episclera/multipack-with-react@latest/build/index.js"></script>
-<script>
-  const { Counter, useCounter } = multipackWithReact
-  const App = () => {
-    const { count, increment, decrement } = useCounter(0)
-    return (
-      <Counter count={count} onDecrement={decrement} onIncrement={increment} />
-    )
-  }
-</script>
-```
-
 ## Contributing
 
 1. Fork it!

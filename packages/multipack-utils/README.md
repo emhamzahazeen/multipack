@@ -26,16 +26,6 @@ import { toNumber } from '@episclera/multipack-utils'
 console.log(toNumber('21'))
 ```
 
-Or use via cdn:
-
-```html
-<!--index.html-->
-<script src="https://cdn.jsdelivr.net/npm/@episclera/multipack-utils@latest/build/index.js"></script>
-<script>
-  console.log(multipackUtils.toNumber('21'))
-</script>
-```
-
 ## Contributing
 
 1. Fork it!
