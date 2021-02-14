@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.1.4 (2021-02-14)
+
+
+### Bug Fixes
+
+* temp fix for styles lint ([b0d6adb](https://github.com/episclera/multipack/commit/b0d6adb5c1bcbbb8d3c636aaf97d9a0417a5c9c7))
+
+
+
+
+
 ## 5.1.3 (2021-02-08)
 
 **Note:** Version bump only for package @episclera/multipack-utils
