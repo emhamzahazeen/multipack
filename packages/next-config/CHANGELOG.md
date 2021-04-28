@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.4.0 (2021-04-28)
+
+
+### Features
+
+* add mp to rest of config files ([047946d](https://github.com/episclera/multipack/commit/047946df0867089c36ec3b6af89482ee336b494e))
+
+
+
+
+
 # 1.3.0 (2021-04-28)
 
 
