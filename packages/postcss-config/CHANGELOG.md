@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.5.0 (2021-04-28)
+
+
+### Features
+
+* move configkit to multipack for a better management ([ee7e492](https://github.com/episclera/multipack/commit/ee7e492850af42abd843a73a62820bb0ac843e75))
+
+
+
+
+
 ## 1.4.1 (2021-04-27)
 
 **Note:** Version bump only for package @episclera/postcss-config
