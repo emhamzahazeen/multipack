@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.7.0 (2021-04-29)
+
+
+### Features
+
+* auto merge ([e4cdb95](https://github.com/episclera/multipack/commit/e4cdb95c24ba582712634ecbda8111104b1fe9c5))
+
+
+
+
+
 ## 1.6.1 (2021-04-29)
 
 
