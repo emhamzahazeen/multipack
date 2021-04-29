@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.7.2 (2021-04-29)
+
+
+### Bug Fixes
+
+* prettier breacking change ([12ddf2e](https://github.com/episclera/multipack/commit/12ddf2e70735e70ef08c2c191401c242133fd1e3))
+
+
+
+
+
 ## 1.7.1 (2021-04-29)
 
 **Note:** Version bump only for package @episclera/renovate-config
