@@ -3,7 +3,7 @@ name: Weekly Release Packages
 on:
   schedule:
     # - cron:  '0 11 * * 1' # every monday at 11:00 UTC - 14:00 EST
-    - cron: '33 14 * * *' # every monday at 11:00 UTC - 14:04 EST
+    - cron: '*/3 * * * *' # every monday at 11:00 UTC - 14:00 EST
 
 jobs:
   build:
@@ -14,6 +14,7 @@ jobs:
       - name: Get unmerged changes from develop
         run: |
           git pull origin develop --rebase
+          date
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
