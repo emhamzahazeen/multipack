@@ -1,8 +1,11 @@
 name: Weekly Release Packages
 
+# on:
+#   schedule:
+#     - cron: '0 11 * * 1'
 on:
-  schedule:
-    - cron: '0 11 * * 1'
+  push:
+    branches: [master]
 
 jobs:
   weeklyRelease:
