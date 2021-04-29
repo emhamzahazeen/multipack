@@ -22,7 +22,7 @@ jobs:
         with:
           author: GitHub <noreply@github.com>
           title: Weekly Release Packages
-          branch: weekly-release/${{ date '+ %d-%m-%Y' }}
+          branch: "weekly-release/${{ date '+ %d-%m-%Y' }}"
           branch-suffix: timestamp
           base: master
           delete-branch: true
