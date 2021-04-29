@@ -21,12 +21,20 @@ jobs:
         id: date
         run: echo "::set-output name=date::$(date +'%d-%m-%Y')"
       - name: Create Pull Request
+        id: cpr
         uses: peter-evans/create-pull-request@v3
         with:
           author: GitHub <noreply@github.com>
-          title: Weekly Release Packages
           branch: weekly-release/${{ steps.date.outputs.date }}
-          branch-suffix: timestamp
+          title: Weekly Release Packages
+          body: |
+            Weekly auto-generated PR that will  be auto-merged to trigger the auto-publish process
+          labels: |
+            weekly-release
           base: master
           delete-branch: true
           token: ${{ secrets.PAT }}
+      - name: Check outputs
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
