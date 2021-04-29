@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.3.1 (2021-04-29)
+
+
+### Bug Fixes
+
+* cron ([21c8eef](https://github.com/episclera/multipack/commit/21c8eef2e7bb33efa8b0202ae9a72f130c60199d))
+
+
+
+
+
 # 5.3.0 (2021-04-28)
 
 
