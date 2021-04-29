@@ -22,13 +22,8 @@ jobs:
         with:
           author: GitHub <noreply@github.com>
           title: Weekly Release Packages
-          branch: weekly-release
+          branch: weekly-release/${{ date '+ %d-%m-%Y' }}
           branch-suffix: timestamp
           base: master
-          commit-message: 'chore: weekly release'
           delete-branch: true
           token: ${{ secrets.PAT }}
-      - name: Check outputs
-        run: |
-          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
-          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
