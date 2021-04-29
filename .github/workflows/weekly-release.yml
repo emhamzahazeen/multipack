@@ -2,7 +2,7 @@ name: Weekly Release Packages
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '* * * * *'
 
 jobs:
   weeklyRelease:
@@ -10,10 +10,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Fetch and Checkout to Develop
-        run: |
-          git fetch origin develop
-          git checkout develop
+        with:
+          ref: develop
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
