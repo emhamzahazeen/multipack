@@ -2,8 +2,8 @@ name: Weekly Release Packages
 
 on:
   schedule:
-    # - cron:  '0 10 * * 1' every monday at 10:00
-    - cron: '22 17 * * *'
+    # - cron:  '0 11 * * 1' # every monday at 11:00 UTC - 14:00 EST
+    - cron: '33 14 * * *' # every monday at 11:00 UTC - 14:04 EST
 
 jobs:
   build:
