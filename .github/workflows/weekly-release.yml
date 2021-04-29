@@ -10,9 +10,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Checkout to develop
+      - name: Fetch and Checkout to Develop
         run: |
-          git checkout -b develop origin/develop
+          git fetch origin develop
+          git checkout develop
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
