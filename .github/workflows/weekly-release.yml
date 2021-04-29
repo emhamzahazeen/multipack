@@ -5,14 +5,14 @@ on:
     - cron: '*/5 * * * *'
 
 jobs:
-  build:
+  weeklyRelease:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
-      - name: Get unmerged changes from develop
+      - name: Checkout to develop
         run: |
-          git pull origin develop --rebase
+          git checkout -b develop origin/develop
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
