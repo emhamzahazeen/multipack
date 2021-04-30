@@ -2,22 +2,26 @@ import { lint } from 'stylelint'
 import stylelintConfig from '../index'
 
 describe('stylelintConfig', () => {
-  // TODO: find a way how to properly test stylelintConfig because at the moment lint method only throws unknown errors
-  it.skip('Should not return errors or warnings if provided code is formatted correctly', () => {
-    expect.assertions(2)
-
-    lint({
-      code: '.a {\n  color:red;\n}\n',
+  it('Should not return errors or warnings if provided code is formatted and written correctly', async () => {
+    const res = await lint({
+      code:
+        '@property: color;\n@primary: blue;\n.a {\n  @{property}: @primary;\n}\n',
+      codeFilename: 'index.less',
+      syntax: 'less',
       config: stylelintConfig,
-      formatter: 'verbose',
     })
-      .then(({ errored, maxWarningsExceeded: { foundWarnings } }) => {
-        expect(errored).toBeFalsy()
-        expect(foundWarnings).toBe(0)
-      })
-      .catch(error => {
-        // Just to fail the test
-        expect(true).toBe(error)
-      })
+
+    expect(res.errored).toBeFalsy()
+  })
+
+  it('Should return errors or warnings if provided code is formatted and written incorrectly', async () => {
+    const res = await lint({
+      code: '.a {\n  red: 21px;\n}\n',
+      codeFilename: 'index.less',
+      syntax: 'less',
+      config: stylelintConfig,
+    })
+
+    expect(res.errored).toBeTruthy()
   })
 })

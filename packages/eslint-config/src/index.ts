@@ -1,7 +1,5 @@
-/* istanbul ignore file */
 import { EslintConfig } from '../types'
 
-/* istanbul ignore next */
 const eslintConfig: EslintConfig = {
   extends: [
     'eslint:recommended', // add eslint recommended rules
@@ -23,12 +21,10 @@ const eslintConfig: EslintConfig = {
     browser: true,
   },
   rules: {
-    'react/jsx-filename-extension': ['error', { extensions: ['.tsx', '.jsx'] }],
     'react/jsx-props-no-spreading': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/restrict-template-expressions': 'off',
   },
 }
 
-/* istanbul ignore next */
 export default eslintConfig

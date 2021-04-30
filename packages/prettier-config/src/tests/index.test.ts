@@ -7,9 +7,9 @@ const formattedCode = `const semi = 1\nconst singleQuote = 'text'\nconst trailin
 
 describe('prettierConfig', () => {
   it('Should correctly format provided code', () => {
-    expect(format(rawCode, { ...prettierConfig, filepath: 'test.tsx' })).toBe(
-      formattedCode,
-    )
+    expect(
+      format(rawCode, { ...prettierConfig, filepath: './src/index.ts' }),
+    ).toBe(formattedCode)
   })
 
   it('Should return true if provided code is formatted correctly', () => {

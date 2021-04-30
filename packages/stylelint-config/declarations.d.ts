@@ -1,10 +1,13 @@
 type Lint = (options: {
-  code: string
+  code?: string
+  codeFilename?: string
   config: { [key: string]: any }
+  configBasedir?: string
   formatter?: string
+  files?: string
+  syntax?: string
 }) => Promise<{
   errored: boolean
-  maxWarningsExceeded: { foundWarnings: number }
 }>
 
 declare module 'stylelint' {
