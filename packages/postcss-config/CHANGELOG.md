@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.7.3 (2021-05-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint to v13.13.1 ([f22644d](https://github.com/episclera/multipack/commit/f22644dee2ce1dfa0861fbcd70f7ecfc1504755b))
+
+
+
+
+
 ## 1.7.2 (2021-04-29)
 
 
