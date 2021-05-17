@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.4.4 (2021-05-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.2.15 ([738d225](https://github.com/episclera/multipack/commit/738d22503d19ae360973f0095c23fab0d06f659c))
+
+
+
+
+
 ## 5.4.3 (2021-05-03)
 
 
