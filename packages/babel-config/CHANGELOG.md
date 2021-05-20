@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.8.0 (2021-05-20)
+
+
+### Features
+
+* husky 6 ([8a94286](https://github.com/episclera/multipack/commit/8a94286d955e154f8fb784c37f313cfd64cf5da3))
+
+
+
+
+
 ## 1.7.4 (2021-05-17)
 
 
