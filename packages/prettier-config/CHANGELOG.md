@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.9.0 (2021-05-21)
+
+
+### Features
+
+* **lint-staged-config:** add lint staged config ([8b9f0cf](https://github.com/episclera/multipack/commit/8b9f0cfbb37d275a32db279ae343daa631ecacb5))
+
+
+
+
+
 # 1.8.0 (2021-05-20)
 
 
