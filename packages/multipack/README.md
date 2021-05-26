@@ -21,9 +21,6 @@
 ## Features
 
 - Manage, Configure and Create monorepo projects which follows Multipack standarts.
-- Manage and configure code style linters.
-- Manage and configure test and linting processes for monorepos.
-- Manage and configure `Github workflow actions` for monorepos.
 
 ## Getting started.
 
@@ -31,22 +28,22 @@ Install: `npm i -g @episclera/multipack`
 
 ## Usage
 
-#### `multipack new workspace` - Create a new monorepo following Multipack standarts
+#### `multipack create workspace` - Create a new monorepo following Multipack standarts
 
 ```sh
 ? Workspace name (e.g., name)     happyworkspace
 ? Workspace organisation name (e.g., org name)     happyorg
 ```
 
-#### `multipack new package` - Create a new package in the current workspace following Multipack standarts
+#### `multipack create package` - Create a new package in the current workspace following Multipack standarts
 
 ```sh
 ? What to create in the workspace (Use arrow keys)
 ❯  module           [UMD package]
-   cli              [CLI package]
-   react            [React package]
+   react            [UMD React package]
    web              [Next.js app]
    api              [Strapi api]
+   cli              [CLI package]
 ```
 
 ## Multipack shared configs usage
