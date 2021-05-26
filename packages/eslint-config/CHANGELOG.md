@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.10.0 (2021-05-26)
+
+
+### Features
+
+* add multipack cli ([d14348e](https://github.com/episclera/multipack/commit/d14348e42945ce897ac87687a60443d0c2817b17))
+
+
+
+
+
 ## 1.9.1 (2021-05-25)
 
 **Note:** Version bump only for package @episclera/eslint-config
