@@ -1,6 +1,6 @@
 import path from 'path'
 import { Generator } from '../../../types'
-import getTemplatesDir from '../../utils/getTemplatesDir'
+import getTemplatesDirPath from '../../utils/getTemplatesDirPath'
 
 const workspaceGenerator: Generator = {
   prompts: [
@@ -18,7 +18,7 @@ const workspaceGenerator: Generator = {
   actions: [
     {
       type: 'copy',
-      copyFrom: path.join(getTemplatesDir(), '/create/workspace/**/*'),
+      copyFrom: path.join(getTemplatesDirPath(), '/create/workspace/**/*'),
       copyTo: process.cwd(),
     },
   ],
