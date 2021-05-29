@@ -31,8 +31,8 @@ Install: `npm i -g @episclera/multipack`
 #### `multipack create workspace` - Create a new monorepo following Multipack standarts
 
 ```sh
-? Workspace name (e.g., name)     happyworkspace
-? Workspace organisation name (e.g., org name)     happyorg
+? Workspace name (e.g., my-worspace)     happyworkspace
+? Workspace organization name (e.g., org my-organization)     happyorg
 ```
 
 #### `multipack create package` - Create a new package in the current workspace following Multipack standarts

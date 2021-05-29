@@ -1,21 +1,21 @@
 import createCommand from '../index'
 
 describe('createCommand', () => {
-  it('Should log an error if createType is incorrect', () => {
+  it('Should log an error if createType is incorrect', async () => {
     const spy = jest.spyOn(console, 'log')
 
-    createCommand('test')
+    await createCommand('test')
 
     expect(spy.mock.calls[0][0]).toMatch('Error')
   })
 
-  it('Should log an warning if createType is correct', () => {
+  it('Should log an error if createType is package and cwd is not workspace root folder', async () => {
     const spy = jest.spyOn(console, 'log')
+    const spyCWD = jest.spyOn(process, 'cwd')
+    spyCWD.mockReturnValue('./unknownPath')
 
-    createCommand('workspace')
-    createCommand('package')
+    await createCommand('package')
 
-    expect(spy.mock.calls[1][0]).toMatch('Warning')
-    expect(spy.mock.calls[2][0]).toMatch('Warning')
+    expect(spy.mock.calls[0][0]).toMatch('Error')
   })
 })
