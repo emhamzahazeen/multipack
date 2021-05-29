@@ -10,7 +10,7 @@ export type TCreateCommand = (
 // utils
 export type TIsCWDWorkspaceRootFolder = () => boolean
 
-export type TGetTemplatesDir = () => string
+export type TGetTemplatesDirPath = () => string
 
 export type TGetEndValueFromActionMethod = (
   arg:
