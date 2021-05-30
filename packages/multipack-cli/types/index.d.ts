@@ -1,4 +1,5 @@
 import { CommanderError, OutputConfiguration } from 'commander'
+import Enquirer from 'enquirer'
 import ora from 'ora'
 
 // commands
@@ -35,16 +36,40 @@ export interface GeneratorAnswers {
   [key: string]: any
 }
 
-export interface GeneratorInputPrompt {
-  name: string
-  message: string
-  type: 'input'
+export interface GeneratorBasePrompt {
+  name: string | (() => string)
+  type: string | (() => string)
+  message: string | (() => string) | (() => Promise<string>)
+  initial?: any
+  required?: boolean
+  format?(value: string): string | Promise<string>
+  result?(value: string): string | Promise<string>
+  skip?:
+    | ((state: { [key: string]: any }) => boolean | Promise<boolean>)
+    | boolean
+  validate?(
+    value: string,
+  ): boolean | Promise<boolean> | string | Promise<string>
+  onSubmit?(
+    name: string,
+    value: any,
+    prompt: Enquirer.Prompt,
+  ): boolean | Promise<boolean>
+  onCancel?(
+    name: string,
+    value: any,
+    prompt: Enquirer.Prompt,
+  ): boolean | Promise<boolean>
+  stdin?: NodeJS.ReadStream
+  stdout?: NodeJS.WriteStream
 }
 
-export interface GeneratorSelectPrompt {
-  name: string
-  message: string
-  type: 'select'
+export interface GeneratorInputPrompt extends GeneratorBasePrompt {
+  type: 'input' | (() => 'input')
+}
+
+export interface GeneratorSelectPrompt extends GeneratorBasePrompt {
+  type: 'select' | (() => 'select')
   choices: string[]
 }
 

@@ -4,7 +4,6 @@ import workspaceGenerator from './workspaceGenerator'
 import runGenerator from '../../runGenerator'
 import log from '../../utils/log'
 import isCWDWorkspaceRootFolder from '../../utils/isCWDWorkspaceRootFolder'
-import isTestEnv from '../../utils/isTestEnv'
 import { TCreateCommand, Generator } from '../../../types'
 
 /**
@@ -38,9 +37,7 @@ const createCommand: TCreateCommand = async createType => {
     workspace: workspaceGenerator,
   }
 
-  const generatorResult = await runGenerator(createGenerators[createType])
-
-  if (isTestEnv) return generatorResult
+  await runGenerator(createGenerators[createType])
 }
 
 export default createCommand
