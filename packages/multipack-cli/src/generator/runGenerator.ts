@@ -1,6 +1,6 @@
 import runPrompts from './runPrompts'
 import runActions from './runActions'
-import { TRunGenerator } from '../types'
+import { TRunGenerator } from '../../types'
 
 /**
  *  Used to run generators
