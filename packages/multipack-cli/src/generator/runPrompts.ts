@@ -1,5 +1,5 @@
 import { prompt } from 'enquirer'
-import { TRunPrompts } from '../types'
+import { TRunPrompts } from '../../types'
 
 /**
  * Used to run CLI prompts
