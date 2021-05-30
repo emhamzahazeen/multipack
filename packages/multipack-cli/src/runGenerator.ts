@@ -6,6 +6,7 @@ import { TRunGenerator } from '../types'
  *  Used to run generators
  * @param generator - generator
  */
+/* istanbul ignore next */
 const runGenerator: TRunGenerator = async generator => {
   let answers = {}
 

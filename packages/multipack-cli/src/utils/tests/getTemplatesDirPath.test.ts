@@ -11,9 +11,7 @@ describe('getTemplatesDirPath', () => {
   it('Should return correct path to templates dir if ENV is other than test', () => {
     process.env.NODE_ENV = 'production'
 
-    expect(getTemplatesDirPath()).toBe(
-      path.join(__dirname, '../../../templates/'),
-    )
+    expect(getTemplatesDirPath()).toBe(path.join(__dirname, '../../templates/'))
     // reset process.env.NODE_ENV
     process.env.NODE_ENV = 'test'
   })
