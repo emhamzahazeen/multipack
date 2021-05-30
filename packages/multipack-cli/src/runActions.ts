@@ -3,11 +3,13 @@ import { TRunActions } from '../types'
 import cliSpinner from './utils/cliSpinner'
 import log from './utils/log'
 import getEndValueFromActionMethod from './utils/getEndValueFromActionMethod'
+
 /**
  * Used to run generator actions
  * @param actions - array of actions to run
  * @param answers - responses from user
  */
+/* istanbul ignore next */
 const runActions: TRunActions = async (actions, answers) => {
   const actionsToRun: (() => Promise<{ success: boolean }>)[] = []
 
