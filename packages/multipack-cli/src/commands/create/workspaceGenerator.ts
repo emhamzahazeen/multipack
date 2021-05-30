@@ -21,8 +21,12 @@ const workspaceGenerator: Generator = {
   actions: [
     {
       type: 'copy',
-      copyFrom: path.join(getTemplatesDirPath(), '/create/workspace/**/*'),
-      copyTo: ({ workspaceName }) => path.join(process.cwd(), workspaceName),
+      files: ({ workspaceName }) => ({
+        [path.join(getTemplatesDirPath(), '/create/workspace/')]: path.join(
+          process.cwd(),
+          workspaceName,
+        ),
+      }),
     },
   ],
 }

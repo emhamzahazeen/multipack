@@ -1,7 +1,7 @@
 /* eslint-disable consistent-return */
 import packageGenerator from './packageGenerator'
 import workspaceGenerator from './workspaceGenerator'
-import runGenerator from '../../runGenerator'
+import runGenerator from '../../generator/runGenerator'
 import log from '../../utils/log'
 import isCWDWorkspaceRootFolder from '../../utils/isCWDWorkspaceRootFolder'
 import { TCreateCommand, Generator } from '../../../types'

@@ -13,14 +13,7 @@ export type TIsCWDWorkspaceRootFolder = () => boolean
 
 export type TGetTemplatesDirPath = () => string
 
-export type TGetEndValueFromActionMethod = (
-  arg:
-    | string
-    | boolean
-    | number
-    | ((answers: GeneratorAnswers) => string | boolean | number),
-  answers: GeneratorAnswers,
-) => any
+export type TGetEndValueFromAny = (rawValue: any, ...fnArgs: any[]) => any
 
 export interface Log {
   info: (message: string) => void
@@ -75,22 +68,8 @@ export interface GeneratorSelectPrompt extends GeneratorBasePrompt {
 
 export type GeneratorPrompt = GeneratorInputPrompt | GeneratorSelectPrompt
 
-export interface GeneratorCopyAction {
-  type: 'copy'
-  copyFrom: string | ((answers: GeneratorAnswers) => string)
-  copyTo: string | ((answers: GeneratorAnswers) => string)
-}
-
-export interface GeneratorTransformTemplateAction {
-  type: 'transformTemplate'
-  transformTemplateData:
-    | GeneratorAnswers
-    | ((answers: GeneratorAnswers) => GeneratorAnswers)
-}
-
-export interface GeneratorRenameAction {
-  type: 'rename'
-  renameFiles:
+export interface GeneratorActionBase {
+  files:
     | {
         [key: string]: string
       }
@@ -99,10 +78,43 @@ export interface GeneratorRenameAction {
       })
 }
 
+export interface GeneratorCopyAction extends GeneratorActionBase {
+  type: 'copy'
+}
+
+export interface GeneratorMoveAction extends GeneratorActionBase {
+  type: 'move'
+}
+
+export interface GeneratorTransformTemplateAction extends GeneratorActionBase {
+  type: 'transformTemplate'
+}
+
+export interface GeneratorRenameAction extends GeneratorActionBase {
+  type: 'rename'
+}
+
+export interface GeneratorRemoveAction {
+  type: 'remove'
+  files: string[]
+}
+
+export interface GeneratorModifyAction {
+  type: 'modify'
+  files: string[]
+}
+
 export type GeneratorAction =
   | GeneratorCopyAction
   | GeneratorTransformTemplateAction
   | GeneratorRenameAction
+  | GeneratorRemoveAction
+  | GeneratorMoveAction
+  | GeneratorModifyAction
+
+export interface ActionResult {
+  error: boolean | Error
+}
 
 export interface Generator {
   prompts?: GeneratorPrompt[]
@@ -120,6 +132,12 @@ export type TRunActions = (
   actions: GeneratorAction[],
   answers: GeneratorAnswers,
 ) => Promise<void>
+
+// generator actions handlers
+export type TCopyAction = (
+  actions: GeneratorCopyAction,
+  answers: GeneratorAnswers,
+) => Promise<ActionResult[]>
 
 // main
 export type TInitCli = (

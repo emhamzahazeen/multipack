@@ -1,13 +1,13 @@
-import getEndValueFromActionMethod from '../getEndValueFromActionMethod'
+import getEndValueFromAny from '../getEndValueFromAny'
 import { GeneratorAnswers } from '../../../types'
 
-describe('getEndValueFromActionMethod', () => {
+describe('getEndValueFromAny', () => {
   it('Should return correct value', () => {
     const expectedValue = 'expectedValue'
 
-    expect(getEndValueFromActionMethod(expectedValue, {})).toBe(expectedValue)
+    expect(getEndValueFromAny(expectedValue, {})).toBe(expectedValue)
     expect(
-      getEndValueFromActionMethod(
+      getEndValueFromAny(
         ({ expectedValue: valueToReturn }: GeneratorAnswers) =>
           valueToReturn as string,
         { expectedValue },
