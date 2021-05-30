@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.2.0 (2021-05-30)
+
+
+### Features
+
+* extract generator and remove gulp in favour to fs-extra ([4b9deb7](https://github.com/episclera/multipack/commit/4b9deb7627c09809b1faf5273e7a0ef3ac89653b))
+
+
+
+
+
 # 1.1.0 (2021-05-26)
 
 
