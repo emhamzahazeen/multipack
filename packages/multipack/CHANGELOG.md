@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.9.0 (2021-05-31)
+
+
+### Features
+
+* change .github templates name ([8f2b1bd](https://github.com/episclera/multipack/commit/8f2b1bdc13bc8c0f45f504c266c3fe7186c630a8))
+
+
+
+
+
 # 5.8.0 (2021-05-30)
 
 
