@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.1 (2021-05-31)
+
+
+### Bug Fixes
+
+* template wp lib name ([a174267](https://github.com/episclera/multipack/commit/a174267e59d0085040451a3c81bf8e3ef969c138))
+
+
+
+
+
 # 1.3.0 (2021-05-31)
 
 
