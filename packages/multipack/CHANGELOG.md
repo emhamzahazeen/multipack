@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.11.0 (2021-06-04)
+
+
+### Features
+
+* rm babel ([ae7ed62](https://github.com/episclera/multipack/commit/ae7ed629395f26c83c18932f0b846a66b537f4fb))
+
+
+
+
+
 # 5.10.0 (2021-06-04)
 
 
