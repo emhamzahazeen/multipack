@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.10.0 (2021-06-04)
+
+
+### Features
+
+* rm aliases ([fc5a377](https://github.com/episclera/multipack/commit/fc5a37724746e643c56ae36cf5975d0b8e1a0217))
+
+
+
+
+
 ## 5.9.1 (2021-05-31)
 
 
