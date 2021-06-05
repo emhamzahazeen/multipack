@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.7.0 (2021-06-05)
+
+
+### Features
+
+* add workspace linte ([0ba456f](https://github.com/episclera/multipack/commit/0ba456f8377b5717af2de95b8d1f7c1581d45f65))
+
+
+
+
+
 ## 1.6.1 (2021-06-05)
 
 **Note:** Version bump only for package @episclera/multipack-cli
