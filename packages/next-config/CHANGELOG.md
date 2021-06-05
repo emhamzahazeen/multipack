@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.13.0 (2021-06-05)
+
+
+### Features
+
+* rename lint ([639d855](https://github.com/episclera/multipack/commit/639d8552fa8f902092f5c26e6efa4fd3712e071e))
+
+
+
+
+
 # 1.12.0 (2021-06-04)
 
 
