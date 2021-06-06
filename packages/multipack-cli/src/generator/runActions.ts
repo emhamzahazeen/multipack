@@ -58,16 +58,18 @@ const runActions: TRunActions = async actions => {
     actionsRunResults.push(...(actionResult || []))
   }
 
-  if (actionsRunResults.every(({ error }) => !error)) {
-    log.success('All generator actions passed with success')
-  } else {
+  if (actionsRunResults.some(({ error }) => error)) {
     const actionsWithErrors = actionsRunResults.filter(({ error }) => error)
 
     actionsWithErrors.forEach(({ error }) => log.error(error as Error))
     log.error(
-      `${actionsWithErrors.length} of ${actionsRunResults.length} generator actions failed due to these errors above!`,
+      `${actionsWithErrors.length} of ${actionsRunResults.length} multipack generator actions failed due to these errors above!`,
     )
+  } else {
+    log.success('All multipack generator actions passed with success')
   }
+
+  return actionsRunResults
 }
 
 export default runActions
