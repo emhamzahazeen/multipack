@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.9.0 (2021-06-06)
+
+
+### Features
+
+* add mp lint to lint staged conf ([3745b96](https://github.com/episclera/multipack/commit/3745b96422cec070a22f604f9ba74b2334c6ca34))
+
+
+
+
+
 # 1.8.0 (2021-06-06)
 
 
