@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.16.0 (2021-06-06)
+
+
+### Features
+
+* add exit status to linter and generator ([c61b078](https://github.com/episclera/multipack/commit/c61b078df0bcc2c145ef72de51b52d8363a85c8f))
+
+
+
+
+
 # 5.15.0 (2021-06-06)
 
 
