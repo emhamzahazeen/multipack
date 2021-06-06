@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.17.0 (2021-06-06)
+
+
+### Features
+
+* linter beta functionality ([9646544](https://github.com/episclera/multipack/commit/96465441f6ad66393ba184981dbf468794259790))
+
+
+
+
+
 # 1.16.0 (2021-06-05)
 
 
