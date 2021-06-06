@@ -1,12 +1,12 @@
-import matchRule from '../matchRule'
+import noMatchRule from '../noMatchRule'
 
-describe('matchRule', () => {
-  it('Should return no errors if provided patterns match file content', async () => {
-    const ruleResult = await matchRule({
-      type: 'match',
-      name: 'match-pattern',
+describe('noMatchRule', () => {
+  it("Should return no errors if provided patterns doesn't match file content", async () => {
+    const ruleResult = await noMatchRule({
+      type: 'no-match',
+      name: 'no-match-pattern',
       description: 'test description',
-      patterns: [/describe/],
+      patterns: [/^[0-9]alwaysNotMatchingPattern[0-9]$/],
       files: [__filename],
     })
 
@@ -14,12 +14,12 @@ describe('matchRule', () => {
     expect(ruleResult).toHaveLength(1)
   })
 
-  it("Should return an error if provided patterns doesn't match file content", async () => {
-    const ruleResult = await matchRule({
-      type: 'match',
-      name: 'match-pattern',
+  it('Should return an error if provided patterns match file content', async () => {
+    const ruleResult = await noMatchRule({
+      type: 'no-match',
+      name: 'no-match-pattern',
       description: 'test description',
-      patterns: [/^[0-9]alwaysNotMatchingPattern[0-9]$/],
+      patterns: [/describe/],
       files: [__filename],
     })
 
@@ -28,32 +28,32 @@ describe('matchRule', () => {
   })
 
   it('Should return correct error using description as a function', async () => {
-    const ruleResult = await matchRule({
-      type: 'match',
-      name: 'match-pattern',
+    const ruleResult = await noMatchRule({
+      type: 'no-match',
+      name: 'no-match-pattern',
       description: ({ notMatchingPatterns, fileName, patterns }) =>
-        `Checking if ${fileName} matches patterns "${patterns.map(
+        `Checking if ${fileName} doesn't match patterns "${patterns.map(
           pattern => pattern.source,
-        )}". Found un-matching patterns "${notMatchingPatterns.map(
+        )}". Found matching patterns "${notMatchingPatterns.map(
           pattern => pattern.source,
         )}"`,
-      patterns: [/^[0-9]alwaysNotMatchingPattern[0-9]$/],
+      patterns: [/describe/],
       files: [__filename],
     })
 
     expect(ruleResult[0]).toHaveProperty(
       'error',
       new Error(
-        `[match/match-pattern] - Checking if ${__filename} matches patterns "^[0-9]alwaysNotMatchingPattern[0-9]$". Found un-matching patterns "^[0-9]alwaysNotMatchingPattern[0-9]$"`,
+        `[no-match/no-match-pattern] - Checking if ${__filename} doesn't match patterns "describe". Found matching patterns "describe"`,
       ),
     )
     expect(ruleResult).toHaveLength(1)
   })
 
   it("Should return an error if provided files doesn't exists and can not read content from it", async () => {
-    const ruleResult = await matchRule({
-      type: 'match',
-      name: 'match-pattern',
+    const ruleResult = await noMatchRule({
+      type: 'no-match',
+      name: 'no-match-pattern',
       description: 'test description',
       patterns: [/^[0-9]alwaysNotMatchingPattern[0-9]$/],
       files: ['./unknownFile.txt'],
