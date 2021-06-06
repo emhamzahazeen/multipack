@@ -160,6 +160,11 @@ export interface LinterConfigFilesExistsRule extends LinterConfigBaseRule {
   description: string | ((descriptionContext: { fileName: string }) => string)
 }
 
+export interface LinterConfigNoFilesExistsRule extends LinterConfigBaseRule {
+  type: 'no-files-exists'
+  description: string | ((descriptionContext: { fileName: string }) => string)
+}
+
 export interface LinterConfigMatchRule extends LinterConfigBaseRule {
   type: 'match'
   patterns: RegExp[]
@@ -172,9 +177,23 @@ export interface LinterConfigMatchRule extends LinterConfigBaseRule {
       }) => string)
 }
 
+export interface LinterConfigNoMatchRule extends LinterConfigBaseRule {
+  type: 'no-match'
+  patterns: RegExp[]
+  description:
+    | string
+    | ((descriptionContext: {
+        fileName: string
+        patterns: RegExp[]
+        notMatchingPatterns: RegExp[]
+      }) => string)
+}
+
 export type LinterConfigRule =
   | LinterConfigFilesExistsRule
+  | LinterConfigNoFilesExistsRule
   | LinterConfigMatchRule
+  | LinterConfigNoMatchRule
 
 export interface LinterRuleResult {
   error: boolean | Error
@@ -188,9 +207,16 @@ export type TFilesExistsRule = (
   rule: LinterConfigFilesExistsRule,
 ) => Promise<LinterRuleResult[]>
 
-// linter rules handlers
+export type TNoFilesExistsRule = (
+  rule: LinterConfigNoFilesExistsRule,
+) => Promise<LinterRuleResult[]>
+
 export type TMatchRule = (
   rule: LinterConfigMatchRule,
+) => Promise<LinterRuleResult[]>
+
+export type TNoMatchRule = (
+  rule: LinterConfigNoMatchRule,
 ) => Promise<LinterRuleResult[]>
 
 // linter methods

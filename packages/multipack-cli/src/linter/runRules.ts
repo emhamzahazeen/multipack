@@ -1,7 +1,9 @@
 import log from '../utils/log'
 import { TRunRules, LinterRuleResult } from '../../types'
 import filesExistsRule from './rulesHandlers/filesExistsRule'
+import noFilesExistsRule from './rulesHandlers/noFilesExistsRule'
 import matchRule from './rulesHandlers/matchRule'
+import noMatchRule from './rulesHandlers/noMatchRule'
 
 /**
  * Used to run linter config rules
@@ -19,9 +21,19 @@ const runRules: TRunRules = async rules => {
       ruleResult = await filesExistsRule(rule)
     }
 
+    if (rule.type === 'no-files-exists') {
+      // eslint-disable-next-line no-await-in-loop
+      ruleResult = await noFilesExistsRule(rule)
+    }
+
     if (rule.type === 'match') {
       // eslint-disable-next-line no-await-in-loop
       ruleResult = await matchRule(rule)
+    }
+
+    if (rule.type === 'no-match') {
+      // eslint-disable-next-line no-await-in-loop
+      ruleResult = await noMatchRule(rule)
     }
 
     rulesRunResults.push(...(ruleResult || []))
