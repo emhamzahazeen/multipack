@@ -28,16 +28,18 @@ const runRules: TRunRules = async rules => {
     rulesRunResults.push(...(ruleResult || []))
   }
 
-  if (rulesRunResults.every(({ error }) => !error)) {
-    log.success('All linter rules passed with success')
-  } else {
+  if (rulesRunResults.some(({ error }) => error)) {
     const rulesWithErrors = rulesRunResults.filter(({ error }) => error)
 
     rulesWithErrors.forEach(({ error }) => log.error(error as Error))
     log.error(
-      `${rulesWithErrors.length} of ${rulesRunResults.length} linter rules failed due to these errors above!`,
+      `${rulesWithErrors.length} of ${rulesRunResults.length} multipack linter rules failed due to these errors above!`,
     )
+  } else {
+    log.success('All multipack linter rules passed with success')
   }
+
+  return rulesRunResults
 }
 
 export default runRules

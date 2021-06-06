@@ -19,7 +19,11 @@ const generator: TGenerator = async generatorConfig => {
       ? generatorConfig.actions(answers)
       : generatorConfig.actions
 
-  await runActions(generatorConfigActions)
+  const actionsRunResults = await runActions(generatorConfigActions)
+
+  if (actionsRunResults.some(({ error }) => error)) {
+    process.exit(1)
+  }
 }
 
 export default generator

@@ -145,7 +145,9 @@ export type TRunPrompts = (
   prompts: GeneratorConfigPrompt[],
 ) => Promise<GeneratorPromptAnswers>
 
-export type TRunActions = (actions: GeneratorConfigAction[]) => Promise<void>
+export type TRunActions = (
+  actions: GeneratorConfigAction[],
+) => Promise<GeneratorActionResult[]>
 
 // linter
 export interface LinterConfigBaseRule {
@@ -192,7 +194,9 @@ export type TMatchRule = (
 ) => Promise<LinterRuleResult[]>
 
 // linter methods
-export type TRunRules = (rules: LinterConfigRule[]) => Promise<void>
+export type TRunRules = (
+  rules: LinterConfigRule[],
+) => Promise<LinterRuleResult[]>
 
 export type TLinter = (linterConfig: LinterConfig) => Promise<void>
 

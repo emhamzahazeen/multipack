@@ -12,7 +12,11 @@ const linter: TLinter = async linterConfig => {
       ? linterConfig.rules()
       : linterConfig.rules
 
-  await runRules(linterConfigRules)
+  const rulesRunResults = await runRules(linterConfigRules)
+
+  if (rulesRunResults.some(({ error }) => error)) {
+    process.exit(1)
+  }
 }
 
 export default linter
