@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.12.0 (2021-06-06)
+
+
+### Features
+
+* add some scriipts to npm scripts rule ([aef75f2](https://github.com/episclera/multipack/commit/aef75f236f6a336ae2e04d19ce36957ce19c7661))
+
+
+
+
+
 # 1.11.0 (2021-06-06)
 
 
