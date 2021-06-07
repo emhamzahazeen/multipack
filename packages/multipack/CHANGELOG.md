@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.18.0 (2021-06-07)
+
+
+### Features
+
+* rm default props eslint rule ([da0eb15](https://github.com/episclera/multipack/commit/da0eb1576410abf1a9ecf2c47f73861914a19cf5))
+
+
+
+
+
 # 5.17.0 (2021-06-06)
 
 
