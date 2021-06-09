@@ -1,7 +1,7 @@
 {
   "name": "@episclera/next-i18next-config",
   "description": "A shareable next-1i18next config.",
-  "version": "1.20.0",
+  "version": "1.21.0",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -39,8 +39,8 @@
     "postinstall": "opencollective-postinstall || exit 0"
   },
   "devDependencies": {
-    "@episclera/multipack-utils": "^5.19.0",
-    "@episclera/webpack-config": "^1.22.0",
+    "@episclera/multipack-utils": "^5.20.0",
+    "@episclera/webpack-config": "^1.23.0",
     "cross-env": "7.0.3",
     "rimraf": "3.0.2",
     "ts-loader": "9.2.3",

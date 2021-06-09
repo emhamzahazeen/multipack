@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.15.0 (2021-06-09)
+
+
+### Features
+
+* dynamic load schema url in codegen ([12b056a](https://github.com/episclera/multipack/commit/12b056a92cc6574a632be0c47172d1a28996adba))
+
+
+
+
+
 # 1.14.0 (2021-06-09)
 
 
