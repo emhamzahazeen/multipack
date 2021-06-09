@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.14.0 (2021-06-09)
+
+
+### Features
+
+* add default clearMOck option to js conf ([d077b0d](https://github.com/episclera/multipack/commit/d077b0d50c62fc522ceeab4c7defab93626d2773))
+
+
+
+
+
 # 1.13.0 (2021-06-07)
 
 

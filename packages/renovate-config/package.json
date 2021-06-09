@@ -1,7 +1,7 @@
 {
   "name": "@episclera/renovate-config",
   "description": "A shareable renovate config.",
-  "version": "1.21.0",
+  "version": "1.22.0",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
