@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.15.1 (2021-06-09)
+
+
+### Bug Fixes
+
+* inline compiled node env var ([42ed1f5](https://github.com/episclera/multipack/commit/42ed1f5de4ead9823400429abcbbc6340732268b))
+
+
+
+
+
 # 1.15.0 (2021-06-09)
 
 
