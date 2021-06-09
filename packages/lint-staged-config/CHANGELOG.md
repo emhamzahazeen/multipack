@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.16.0 (2021-06-09)
+
+
+### Features
+
+* jest conf add default reset modules ([7412491](https://github.com/episclera/multipack/commit/7412491b1aeb0605b82722a1d3369cbfcb34af30))
+
+
+
+
+
 # 1.15.0 (2021-06-09)
 
 
