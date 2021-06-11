@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.19.1 (2021-06-11)
+
+
+### Bug Fixes
+
+* next api url ([742c3de](https://github.com/episclera/multipack/commit/742c3dee9ef166ef75c1cf169761915dd15d3acb))
+
+
+
+
+
 # 1.19.0 (2021-06-11)
 
 
