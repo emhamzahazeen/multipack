@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.25.1 (2021-06-11)
+
+**Note:** Version bump only for package @episclera/tailwind-config
+
+
+
+
+
 # 1.25.0 (2021-06-11)
 
 
