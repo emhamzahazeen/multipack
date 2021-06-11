@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.26.0 (2021-06-11)
+
+
+### Features
+
+* knex config connections per envs ([1232fd5](https://github.com/episclera/multipack/commit/1232fd5e09cc29f4b2c5c56208dbed63915ea23f))
+
+
+
+
+
 ## 1.25.1 (2021-06-11)
 
 **Note:** Version bump only for package @episclera/eslint-config
