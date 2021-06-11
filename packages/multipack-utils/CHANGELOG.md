@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.24.0 (2021-06-11)
+
+
+### Features
+
+* fix migrations seeds config ([2036b71](https://github.com/episclera/multipack/commit/2036b716b862c8bd60bb6e1b75d468f30524329a))
+
+
+
+
+
 ## 5.23.1 (2021-06-11)
 
 **Note:** Version bump only for package @episclera/multipack-utils
