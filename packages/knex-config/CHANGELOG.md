@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.1.0 (2021-06-11)
+
+
+### Features
+
+* add knex file conf ([452acfe](https://github.com/episclera/multipack/commit/452acfe58dcfd25860bbb7c658e5f5d6eeb4c0ab))
+
+
+
+
+
 ## 1.15.1 (2021-06-09)
 
 
