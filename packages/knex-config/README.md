@@ -4,7 +4,7 @@
     src="https://raw.githubusercontent.com/episclera/multipack/master/logo.png">
   </a>
   <h1>@episclera/knex-config</h1>
-  <p>A shareable knex config. Part of <a href="https://github.com/episclera/multipack">multipack</a> monorepo</p>
+  <p>A shareable knex config. Part of <a href="https://github.com/episclera/multipack">multipack</a> monorepo.</p>
   <p>
     <a href="https://episclera.github.io/multipack/">Site</a>
     | <a href="https://episclera.github.io/multipack/docs/doc-introduction">Getting Started</a>
