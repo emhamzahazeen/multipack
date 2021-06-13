@@ -235,6 +235,17 @@ const { knexConfig } = require('@episclera/multipack')
 module.exports = knexConfig
 ```
 
+#### With PM2
+
+In your `pm2.config.js` file just put this content.
+
+```js
+const { pm2Config } = require('@episclera/multipack')
+// OR install and import just what you need separately: const pm2Config = require('@episclera/pm2-config')
+
+module.exports = pm2Config
+```
+
 ## Contributing
 
 1. Fork it!

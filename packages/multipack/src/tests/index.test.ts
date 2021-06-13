@@ -14,6 +14,7 @@ import {
   lintStagedConfig,
   codeGenConfig,
   knexConfig,
+  pm2Config,
 } from '../index'
 
 // NOTE: all utils/configs are tested separately in theirs folders so no need to test here other logical things
@@ -33,6 +34,7 @@ describe('multipack', () => {
     lintStagedConfig,
     codeGenConfig,
     knexConfig,
+    pm2Config,
     mergeConfigs,
   ])('Should correctly re-export package: %s', pkg => {
     expect(pkg).toBeDefined()
