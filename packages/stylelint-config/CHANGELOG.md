@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.28.0 (2021-06-13)
+
+
+### Features
+
+* add pm2 conf ([4de638f](https://github.com/episclera/multipack/commit/4de638fb103a0137176800aeaa20c2b20bfa8a47))
+
+
+
+
+
 ## 1.27.2 (2021-06-11)
 
 **Note:** Version bump only for package @episclera/stylelint-config
