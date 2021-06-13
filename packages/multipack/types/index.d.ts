@@ -12,6 +12,7 @@ import { NextI18NextConfig } from '@episclera/next-i18next-config'
 import { LintStagedConfig } from '@episclera/lint-staged-config'
 import { CodeGenConfig } from '@episclera/codegen-config'
 import { KnexConfig } from '@episclera/knex-config'
+import { PM2Config } from '@episclera/pm2-config'
 
 export interface Multipack {
   // prettier
@@ -40,6 +41,8 @@ export interface Multipack {
   codeGenConfig: CodeGenConfig
   // knex
   knexConfig: KnexConfig
+  // pm2
+  pm2Config: PM2Config
   // utils
   mergeConfigs: TMergeConfigs
 }
@@ -71,6 +74,8 @@ export const lintStagedConfig: LintStagedConfig
 export const codeGenConfig: CodeGenConfig
 // knex
 export const knexConfig: KnexConfig
+// pm2
+export const pm2Config: PM2Config
 // utils
 export const mergeConfigs: TMergeConfigs
 

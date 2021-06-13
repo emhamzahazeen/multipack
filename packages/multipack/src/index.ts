@@ -15,6 +15,7 @@ import nextI18NextConfig from '@episclera/next-i18next-config'
 import lintStagedConfig from '@episclera/lint-staged-config'
 import codeGenConfig from '@episclera/codegen-config'
 import knexConfig from '@episclera/knex-config'
+import pm2Config from '@episclera/pm2-config'
 
 import { Multipack } from '../types'
 
@@ -45,6 +46,8 @@ const multipack: Multipack = {
   codeGenConfig,
   // knex
   knexConfig,
+  // pm2
+  pm2Config,
   // utils
   mergeConfigs,
 }
@@ -76,6 +79,8 @@ export {
   codeGenConfig,
   // knex
   knexConfig,
+  // pm2
+  pm2Config,
   // utils
   mergeConfigs,
 }
