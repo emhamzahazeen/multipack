@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.1 (2021-06-14)
+
+
+### Bug Fixes
+
+* not working pm2 args ([e1589bc](https://github.com/episclera/multipack/commit/e1589bc433f6c84898b353e5716557bd0e939d93))
+
+
+
+
+
 # 1.1.0 (2021-06-13)
 
 
