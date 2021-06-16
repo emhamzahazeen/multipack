@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.27.0 (2021-06-16)
+
+
+### Features
+
+* ch next public schema url ([d78ed75](https://github.com/episclera/multipack/commit/d78ed752f03568a77978585cdad403a2f1033da4))
+
+
+
+
+
 ## 1.26.1 (2021-06-14)
 
 
