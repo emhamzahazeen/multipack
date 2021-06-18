@@ -1,7 +1,7 @@
 {
   "name": "@episclera/eslint-config",
   "description": "A shareable eslint config.",
-  "version": "1.29.0",
+  "version": "1.29.1",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -39,8 +39,8 @@
     "postinstall": "opencollective-postinstall || exit 0"
   },
   "devDependencies": {
-    "@episclera/multipack-utils": "^5.26.0",
-    "@episclera/webpack-config": "^1.29.0",
+    "@episclera/multipack-utils": "^5.26.1",
+    "@episclera/webpack-config": "^1.29.1",
     "cross-env": "7.0.3",
     "react": "17.0.2",
     "react-dom": "17.0.2",

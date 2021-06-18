@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.1 (2021-06-18)
+
+
+### Bug Fixes
+
+* api urls strapi ([04c9fcc](https://github.com/episclera/multipack/commit/04c9fcce39de0e4f6602d7aa570523df86a944e2))
+
+
+
+
+
 # 1.2.0 (2021-06-16)
 
 

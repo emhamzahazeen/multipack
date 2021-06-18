@@ -1,7 +1,7 @@
 {
   "name": "@episclera/next-config",
   "description": "A shareable next config.",
-  "version": "1.27.0",
+  "version": "1.27.1",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -39,7 +39,7 @@
     "postinstall": "opencollective-postinstall || exit 0"
   },
   "devDependencies": {
-    "@episclera/webpack-config": "^1.29.0",
+    "@episclera/webpack-config": "^1.29.1",
     "cross-env": "7.0.3",
     "rimraf": "3.0.2",
     "ts-loader": "9.2.3",
@@ -48,8 +48,8 @@
     "webpack-cli": "4.7.2"
   },
   "dependencies": {
-    "@episclera/multipack-utils": "^5.26.0",
-    "@episclera/next-i18next-config": "^1.27.0",
+    "@episclera/multipack-utils": "^5.26.1",
+    "@episclera/next-i18next-config": "^1.27.1",
     "@svgr/webpack": "5.5.0",
     "file-loader": "6.2.0",
     "next-compose-plugins": "2.2.1",
