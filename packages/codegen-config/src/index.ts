@@ -24,7 +24,7 @@ const codeGenConfig: CodeGenConfig = {
    */
   schema: parsedEnvs.NEXT_PUBLIC_API_URL
     ? `${parsedEnvs.NEXT_PUBLIC_API_URL}/graphql`
-    : `${parsedEnvs.HOST || '0.0.0.0'}:${parsedEnvs.PORT || 3001}/graphql`,
+    : `${parsedEnvs.API_URL}/graphql`,
   generates: {
     './api-types.d.ts': {
       plugins: [

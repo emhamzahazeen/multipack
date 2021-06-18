@@ -24,22 +24,27 @@ describe('codeGenConfig', () => {
     const spyCwd = jest.spyOn(process, 'cwd')
     spyCwd.mockReturnValue(__dirname)
 
-    await writeFile(envFilePath, 'HOST = 0.0.0.0\nPORT = 3005')
+    await writeFile(envFilePath, 'API_URL = http://localhost:3005')
 
     // Importing it dynamically because .env file also is created dynamically in this test and it can't read it initially
     const codeGenConfig = await import('../index')
 
-    expect(codeGenConfig.default.schema).toBe('0.0.0.0:3005/graphql')
+    expect(codeGenConfig.default.schema).toBe('http://localhost:3005/graphql')
     await unlink(envFilePath)
   })
 
-  it('Should not throw errors if .env file are not found and also should return a default schema url using Strapi defaults', async () => {
+  it('Should not throw errors if .env file are not found', async () => {
     const spyCwd = jest.spyOn(process, 'cwd')
     spyCwd.mockReturnValue('./unknownPath')
 
-    // Importing it dynamically because .env file also is created dynamically in this test and it can't read it initially
-    const codeGenConfig = await import('../index')
+    let error: Error | null = null
 
-    expect(codeGenConfig.default.schema).toBe('0.0.0.0:3001/graphql')
+    try {
+      await import('../index')
+    } catch (err) {
+      error = err as Error
+    }
+
+    expect(error).toBeNull()
   })
 })
