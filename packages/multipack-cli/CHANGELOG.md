@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.21.0 (2021-06-21)
+
+
+### Features
+
+* refactor knex conf ([9ca2b05](https://github.com/episclera/multipack/commit/9ca2b05d43b97a5cedd05f4e88e9a4a4b31e0a45))
+
+
+
+
+
 ## 1.20.1 (2021-06-18)
 
 
