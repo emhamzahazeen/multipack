@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.8.0 (2021-06-21)
+
+
+### Features
+
+* refactor types ([0424cdb](https://github.com/episclera/multipack/commit/0424cdb3b620d9e173a168f759665ae39a4317f6))
+
+
+
+
+
 # 1.7.0 (2021-06-21)
 
 
