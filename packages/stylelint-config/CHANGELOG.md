@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.32.1 (2021-06-21)
+
+**Note:** Version bump only for package @episclera/stylelint-config
+
+
+
+
+
 # 1.32.0 (2021-06-21)
 
 
