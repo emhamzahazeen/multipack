@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.4.0 (2021-06-21)
+
+
+### Features
+
+* add default env fallback to development ([639768c](https://github.com/episclera/multipack/commit/639768c62609a8d6aefba91bc6f9ad5487840206))
+
+
+
+
+
 # 1.3.0 (2021-06-21)
 
 
