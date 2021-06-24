@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.24.0 (2021-06-24)
+
+
+### Features
+
+* rm images loader from next conf due to next default ([2a5d22f](https://github.com/episclera/multipack/commit/2a5d22f75b0036b512d4f20c4a0af7c31e75821c))
+
+
+
+
+
 ## 1.23.1 (2021-06-21)
 
 **Note:** Version bump only for package @episclera/codegen-config
