@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.6.1 (2021-06-25)
+
+
+### Bug Fixes
+
+* rm nect eslint on build step ([db9bf7e](https://github.com/episclera/multipack/commit/db9bf7efc7042a997317c33a733a34c03c933006))
+
+
+
+
+
 # 1.6.0 (2021-06-24)
 
 
