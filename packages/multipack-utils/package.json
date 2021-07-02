@@ -1,7 +1,7 @@
 {
   "name": "@episclera/multipack-utils",
   "description": "A set of utils for @episclera/multipack package.",
-  "version": "5.30.1",
+  "version": "5.31.0",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@episclera/configkit-utils": "1.4.1",
-    "@episclera/webpack-config": "^1.33.1",
+    "@episclera/webpack-config": "^1.34.0",
     "cross-env": "7.0.3",
     "rimraf": "3.0.2",
     "ts-loader": "9.2.3",

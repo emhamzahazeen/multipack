@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.31.0 (2021-07-02)
+
+
+### Features
+
+* add some info comments ([8f4d5e7](https://github.com/episclera/multipack/commit/8f4d5e763359643c0e8c0417e1fea9827071ff38))
+
+
+
+
+
 ## 5.30.1 (2021-06-25)
 
 
