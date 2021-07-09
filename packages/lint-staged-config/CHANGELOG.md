@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.27.0 (2021-07-09)
+
+
+### Features
+
+* add jsdom as default env for jest ([06e6ab9](https://github.com/episclera/multipack/commit/06e6ab9b837b4760dcd301043d4f85b09b6d2d2b))
+
+
+
+
+
 ## 1.26.1 (2021-07-09)
 
 
