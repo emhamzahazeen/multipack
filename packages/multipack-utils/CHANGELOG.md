@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.31.1 (2021-07-09)
+
+
+### Bug Fixes
+
+* pkg ([6e00bb3](https://github.com/episclera/multipack/commit/6e00bb3c10097998854ea09c6b892dd8b40386c5))
+
+
+
+
+
 # 5.31.0 (2021-07-02)
 
 
