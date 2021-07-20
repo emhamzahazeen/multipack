@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.12.0 (2021-07-20)
+
+
+### Features
+
+* dont include i18n if is next export mode ([192e453](https://github.com/episclera/multipack/commit/192e45394b7fb53832399e327404c082983bc5c4))
+
+
+
+
+
 # 1.11.0 (2021-07-09)
 
 
