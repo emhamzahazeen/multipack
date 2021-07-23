@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.34.0 (2021-07-23)
+
+
+### Features
+
+* add knex ssl support ([289bcea](https://github.com/episclera/multipack/commit/289bceaf83047151740ce0bbef2f36aaca990abd))
+
+
+
+
+
 # 5.33.0 (2021-07-20)
 
 
