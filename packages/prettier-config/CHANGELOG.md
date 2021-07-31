@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.37.1 (2021-07-31)
+
+
+### Bug Fixes
+
+* add file-loader asa a dependency cause in svgr or in url-loader it is missing ([4b98a8e](https://github.com/episclera/multipack/commit/4b98a8ec054c499d40e1e9142e6338902e299a20))
+
+
+
+
+
 # 1.37.0 (2021-07-23)
 
 
